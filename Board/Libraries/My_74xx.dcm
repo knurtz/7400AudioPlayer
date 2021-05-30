@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74HC40103
+F https://www.ti.com/lit/ds/symlink/cd74hc40103.pdf
+$ENDCMP
+#
+#End Doc Library
