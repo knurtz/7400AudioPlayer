@@ -15,7 +15,7 @@ T 0 -250 650 39 0 0 0 "(Counter Enable)" Normal 0 L C
 T 0 -250 -750 39 0 0 0 "(Master Reset)" Normal 0 L C
 T 0 -150 100 39 0 0 0 (Preload) Normal 0 L C
 T 0 -250 -450 39 0 0 0 "(Sync. Load)" Normal 0 L C
-S -400 900 400 -1100 0 1 0 f
+S -400 900 400 -1100 0 1 10 f
 P 2 0 0 0 -200 100 -150 100 N
 P 4 0 0 0 -250 500 -200 500 -200 -300 -250 -300 N
 X CP 1 -500 -850 100 R 50 50 0 0 I C
