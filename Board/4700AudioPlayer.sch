@@ -358,17 +358,6 @@ Wire Wire Line
 	7950 1950 8100 1950
 Wire Wire Line
 	8100 1950 8100 2150
-$Comp
-L My_74xx:74HC40103 U5
-U 1 1 60BDB6DC
-P 4550 3750
-F 0 "U5" V 4900 4700 50  0000 L CNN
-F 1 "74HC40103" V 5000 4350 50  0000 L CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4600 1850 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/cd74hc40103.pdf" H 4600 1850 50  0001 C CNN
-	1    4550 3750
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5000 2350 5000 2400
 Wire Wire Line
@@ -659,8 +648,6 @@ Wire Wire Line
 Text Label 2300 2850 0    50   ~ 0
 header_done
 Wire Wire Line
-	4000 2850 4000 3250
-Wire Wire Line
 	5000 2400 5000 3250
 Connection ~ 5000 2400
 Wire Wire Line
@@ -722,61 +709,21 @@ Wire Wire Line
 Wire Wire Line
 	4600 2350 4600 3250
 Wire Wire Line
-	4500 2350 4500 3250
-Wire Wire Line
 	4400 2350 4400 3250
 Wire Wire Line
 	4300 2350 4300 3250
 Wire Wire Line
 	4100 2750 4100 3250
 Wire Wire Line
-	4050 5850 5300 5850
-Wire Wire Line
-	4700 6050 5300 6050
-Wire Wire Line
-	11250 6650 11300 6650
-Connection ~ 11250 6650
-Wire Wire Line
-	11250 6750 11300 6750
-Wire Wire Line
-	11250 6650 11250 6750
-Text Label 10600 6650 0    50   ~ 0
-n_playback_end
-Wire Wire Line
-	10600 6650 11250 6650
-$Comp
-L 74xx:74LS10 U?
-U 3 1 6117C7C0
-P 11600 6650
-F 0 "U?" H 11600 6975 50  0000 C CNN
-F 1 "74LS10" H 11600 6884 50  0000 C CNN
-F 2 "" H 11600 6650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 11600 6650 50  0001 C CNN
-	3    11600 6650
-	1    0    0    -1  
-$EndComp
+	4050 5850 4100 5850
 Wire Wire Line
 	2700 6050 3400 6050
 Text Label 2700 6050 0    50   ~ 0
 n_playback_end
-Text Label 10600 6550 0    50   ~ 0
-header_done
-Wire Wire Line
-	11300 6550 10600 6550
-Wire Wire Line
-	12050 6300 12200 6300
-Wire Wire Line
-	12050 6650 12050 6300
-Wire Wire Line
-	11900 6650 12050 6650
 Text Label 9550 6500 2    50   ~ 0
 header_done
 Wire Wire Line
 	8750 6500 9550 6500
-Wire Wire Line
-	2700 5600 4050 5600
-Wire Wire Line
-	11400 6200 12200 6200
 Wire Wire Line
 	8450 6250 9550 6250
 Wire Wire Line
@@ -784,7 +731,7 @@ Wire Wire Line
 Text Label 9550 6700 2    50   ~ 0
 n_header_done
 Wire Wire Line
-	6950 5350 9550 5350
+	6950 5350 8200 5350
 Connection ~ 9550 5950
 Wire Wire Line
 	9550 5950 9550 5350
@@ -822,8 +769,6 @@ Wire Wire Line
 	7450 6800 8100 6800
 Wire Wire Line
 	6950 6800 7450 6800
-Wire Wire Line
-	4050 6050 4100 6050
 Text Label 6300 6150 0    50   ~ 0
 n_reset
 Wire Wire Line
@@ -868,12 +813,12 @@ $EndComp
 $Comp
 L 74xx:74HC04 U11
 U 2 1 60D35307
-P 4400 6050
-F 0 "U11" H 4600 6150 50  0000 C CNN
-F 1 "74HC04" H 4600 5950 50  0000 C CNN
-F 2 "" H 4400 6050 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 4400 6050 50  0001 C CNN
-	2    4400 6050
+P 4400 5850
+F 0 "U11" H 4600 5950 50  0000 C CNN
+F 1 "74HC04" H 4600 5750 50  0000 C CNN
+F 2 "" H 4400 5850 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 4400 5850 50  0001 C CNN
+	2    4400 5850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -925,14 +870,8 @@ byte_request
 Wire Wire Line
 	11400 5900 12200 5900
 Wire Wire Line
-	12150 6000 12150 5450
-Wire Wire Line
-	12200 6000 12150 6000
-Wire Wire Line
 	12600 5450 12600 5500
 Connection ~ 12600 5450
-Wire Wire Line
-	12600 5450 12150 5450
 Wire Wire Line
 	12600 6800 12600 6900
 Wire Wire Line
@@ -1040,9 +979,6 @@ sample_clk
 Text Label 6300 5950 0    50   ~ 0
 n_sample_clk
 Wire Wire Line
-	4050 5600 4050 5850
-Connection ~ 4050 5850
-Wire Wire Line
 	2300 1750 2950 1750
 Text Label 2300 1150 0    50   ~ 0
 n_reset
@@ -1145,24 +1081,9 @@ Connection ~ 4000 2850
 Wire Wire Line
 	4000 2550 4000 2850
 Wire Wire Line
-	2300 2850 2950 2850
-Text Label 15000 4550 2    50   ~ 0
+	2300 2850 2900 2850
+Text Label 15050 5250 2    50   ~ 0
 n_playback_end
-Wire Wire Line
-	15000 4550 14400 4550
-Wire Bus Line
-	13250 5800 13250 6600
-$Comp
-L 74xx:74LS10 U?
-U 2 1 6117B684
-P 3700 6050
-F 0 "U?" H 3700 6375 50  0000 C CNN
-F 1 "74LS10" H 3700 6284 50  0000 C CNN
-F 2 "" H 3700 6050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 3700 6050 50  0001 C CNN
-	2    3700 6050
-	1    0    0    -1  
-$EndComp
 $Comp
 L 4xxx:4072 U?
 U 1 1 60FAC43A
@@ -1174,15 +1095,88 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 14100 4550 50  0001 C CNN
 	1    14100 4550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2900 2550 4000 2550
+Wire Wire Line
+	4000 2850 4000 3250
+Wire Wire Line
+	4500 2350 4500 3250
 $Comp
-L 74xx:74LS08 U?
-U 2 1 60B79B6F
-P 3250 2950
-F 0 "U?" H 3250 3275 50  0000 C CNN
-F 1 "74LS10" H 3250 3184 50  0000 C CNN
-F 2 "" H 3250 2950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 3250 2950 50  0001 C CNN
-	2    3250 2950
+L My_74xx:74HC40103 U5
+U 1 1 60BDB6DC
+P 4550 3750
+F 0 "U5" V 4900 4700 50  0000 L CNN
+F 1 "74HC40103" V 5000 4350 50  0000 L CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4600 1850 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd74hc40103.pdf" H 4600 1850 50  0001 C CNN
+	1    4550 3750
+	0    1    1    0   
+$EndComp
+Text Label 13150 5350 0    50   ~ 0
+n_header_done
+$Comp
+L 74xx:74LS32 U?
+U 1 1 60B605D7
+P 14100 5250
+F 0 "U?" H 14100 5575 50  0000 C CNN
+F 1 "74LS32" H 14100 5484 50  0000 C CNN
+F 2 "" H 14100 5250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 14100 5250 50  0001 C CNN
+	1    14100 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 5350 13800 5350
+Wire Wire Line
+	13800 5150 13750 5150
+Wire Wire Line
+	13750 5150 13750 4850
+Wire Wire Line
+	13750 4850 14450 4850
+Wire Wire Line
+	14450 4850 14450 4550
+Wire Wire Line
+	14450 4550 14400 4550
+Wire Wire Line
+	15050 5250 14400 5250
+Wire Wire Line
+	2900 2550 2900 2850
+Connection ~ 2900 2850
+Wire Wire Line
+	2900 2850 2950 2850
+Wire Wire Line
+	4700 5850 4800 5850
+Wire Wire Line
+	4050 6050 5300 6050
+Wire Wire Line
+	4800 5600 4800 5850
+Wire Wire Line
+	2700 5600 4800 5600
+Connection ~ 4800 5850
+Wire Wire Line
+	4800 5850 5300 5850
+$Comp
+L 74xx:74HC04 U?
+U 3 1 60B84E20
+P 8500 5350
+F 0 "U?" H 8700 5450 50  0000 C CNN
+F 1 "74HC04" H 8700 5250 50  0000 C CNN
+F 2 "" H 8500 5350 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf" H 8500 5350 50  0001 C CNN
+	3    8500 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8800 5350 9550 5350
+$Comp
+L 74xx:74LS10 U?
+U 2 1 6117B684
+P 3700 6050
+F 0 "U?" H 3700 6375 50  0000 C CNN
+F 1 "74LS10" H 3700 6284 50  0000 C CNN
+F 2 "" H 3700 6050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 3700 6050 50  0001 C CNN
+	2    3700 6050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1196,6 +1190,58 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 3250 1850 50  0001 C CNN
 	1    3250 1850
 	1    0    0    -1  
 $EndComp
+$Comp
+L 74xx:74LS08 U?
+U 2 1 60B79B6F
+P 3250 2950
+F 0 "U?" H 3250 3275 50  0000 C CNN
+F 1 "74LS10" H 3250 3184 50  0000 C CNN
+F 2 "" H 3250 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 3250 2950 50  0001 C CNN
+	2    3250 2950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	2900 2550 4000 2550
+	11400 6200 12200 6200
+Wire Wire Line
+	12600 5450 12150 5450
+Wire Wire Line
+	12200 6000 12150 6000
+Wire Wire Line
+	12150 6000 12150 5450
+Wire Wire Line
+	12050 6300 12200 6300
+Wire Wire Line
+	11900 6650 12050 6650
+Wire Wire Line
+	12050 6650 12050 6300
+Wire Bus Line
+	13250 5800 13250 6600
+$Comp
+L 74xx:74LS10 U?
+U 3 1 6117C7C0
+P 11600 6650
+F 0 "U?" H 11600 6975 50  0000 C CNN
+F 1 "74LS10" H 11600 6884 50  0000 C CNN
+F 2 "" H 11600 6650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 11600 6650 50  0001 C CNN
+	3    11600 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11300 6550 10600 6550
+Text Label 10600 6550 0    50   ~ 0
+header_done
+Wire Wire Line
+	10600 6650 11250 6650
+Text Label 10600 6650 0    50   ~ 0
+n_playback_end
+Wire Wire Line
+	11250 6650 11250 6750
+Wire Wire Line
+	11250 6750 11300 6750
+Connection ~ 11250 6650
+Wire Wire Line
+	11250 6650 11300 6650
+NoConn ~ 13000 6600
 $EndSCHEMATC
