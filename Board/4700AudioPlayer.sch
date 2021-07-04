@@ -5031,4 +5031,1437 @@ F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf
 	1    900  25050
 	1    0    0    -1  
 $EndComp
+Text Label -8350 24250 0    50   ~ 0
+char0_bit0
+Text Label -8350 24350 0    50   ~ 0
+char0_bit1
+Text Label -8350 24450 0    50   ~ 0
+char0_bit2
+Text Label -8350 24550 0    50   ~ 0
+char0_bit3
+Text Label -8350 24650 0    50   ~ 0
+char0_bit4
+Text Label -8350 24750 0    50   ~ 0
+char0_bit5
+Text Label -8350 24850 0    50   ~ 0
+char0_bit6
+Text Label -8350 24950 0    50   ~ 0
+char0_bit7
+Wire Wire Line
+	-8650 24250 -8350 24250
+Wire Wire Line
+	-8650 24350 -8350 24350
+Wire Wire Line
+	-8650 24450 -8350 24450
+Wire Wire Line
+	-8650 24550 -8350 24550
+Wire Wire Line
+	-8650 24650 -8350 24650
+Wire Wire Line
+	-8650 24750 -8350 24750
+Wire Wire Line
+	-8650 24850 -8350 24850
+Wire Wire Line
+	-8650 24950 -8350 24950
+Text Label -8650 24450 0    39   ~ 0
+1
+Text Label -8650 24250 0    39   ~ 0
+0
+Text Label -8350 25150 0    50   ~ 0
+char1_bit0
+Text Label -8350 25250 0    50   ~ 0
+char1_bit1
+Text Label -8350 25350 0    50   ~ 0
+char1_bit2
+Text Label -8350 25450 0    50   ~ 0
+char1_bit3
+Text Label -8350 25550 0    50   ~ 0
+char1_bit4
+Text Label -8350 25650 0    50   ~ 0
+char1_bit5
+Text Label -8350 25750 0    50   ~ 0
+char1_bit6
+Text Label -8350 25850 0    50   ~ 0
+char1_bit7
+Wire Wire Line
+	-8650 25150 -8350 25150
+Wire Wire Line
+	-8650 25250 -8350 25250
+Wire Wire Line
+	-8650 25350 -8350 25350
+Wire Wire Line
+	-8650 25450 -8350 25450
+Wire Wire Line
+	-8650 25550 -8350 25550
+Wire Wire Line
+	-8650 25650 -8350 25650
+Wire Wire Line
+	-8650 25750 -8350 25750
+Wire Wire Line
+	-8650 25850 -8350 25850
+Text Label -8350 26050 0    50   ~ 0
+char2_bit0
+Text Label -8350 26150 0    50   ~ 0
+char2_bit1
+Text Label -8350 26250 0    50   ~ 0
+char2_bit2
+Text Label -8350 26350 0    50   ~ 0
+char2_bit3
+Text Label -8350 26450 0    50   ~ 0
+char2_bit4
+Text Label -8350 26550 0    50   ~ 0
+char2_bit5
+Text Label -8350 26650 0    50   ~ 0
+char2_bit6
+Text Label -8350 26750 0    50   ~ 0
+char2_bit7
+Wire Wire Line
+	-8650 26050 -8350 26050
+Wire Wire Line
+	-8650 26150 -8350 26150
+Wire Wire Line
+	-8650 26250 -8350 26250
+Wire Wire Line
+	-8650 26350 -8350 26350
+Wire Wire Line
+	-8650 26450 -8350 26450
+Wire Wire Line
+	-8650 26550 -8350 26550
+Wire Wire Line
+	-8650 26650 -8350 26650
+Wire Wire Line
+	-8650 26750 -8350 26750
+Text Label -8350 26950 0    50   ~ 0
+char3_bit0
+Text Label -8350 27050 0    50   ~ 0
+char3_bit1
+Text Label -8350 27150 0    50   ~ 0
+char3_bit2
+Text Label -8350 27250 0    50   ~ 0
+char3_bit3
+Text Label -8350 27350 0    50   ~ 0
+char3_bit4
+Text Label -8350 27450 0    50   ~ 0
+char3_bit5
+Text Label -8350 27550 0    50   ~ 0
+char3_bit6
+Text Label -8350 27650 0    50   ~ 0
+char3_bit7
+Wire Wire Line
+	-5850 26050 -5550 26050
+Wire Wire Line
+	-5850 26150 -5550 26150
+Wire Wire Line
+	-5850 26250 -5550 26250
+Wire Wire Line
+	-5850 26350 -5550 26350
+Wire Wire Line
+	-5850 26450 -5550 26450
+Wire Wire Line
+	-5850 26550 -5550 26550
+Wire Wire Line
+	-5850 26650 -5550 26650
+Wire Wire Line
+	-5850 26750 -5550 26750
+Text Label -8350 27850 0    50   ~ 0
+char4_bit0
+Text Label -8350 27950 0    50   ~ 0
+char4_bit1
+Text Label -8350 28050 0    50   ~ 0
+char4_bit2
+Text Label -8350 28150 0    50   ~ 0
+char4_bit3
+Text Label -8350 28250 0    50   ~ 0
+char4_bit4
+Text Label -8350 28350 0    50   ~ 0
+char4_bit5
+Text Label -8350 28450 0    50   ~ 0
+char4_bit6
+Text Label -8350 28550 0    50   ~ 0
+char4_bit7
+Wire Wire Line
+	-5850 25150 -5550 25150
+Wire Wire Line
+	-5850 25250 -5550 25250
+Wire Wire Line
+	-5850 25350 -5550 25350
+Wire Wire Line
+	-5850 25450 -5550 25450
+Wire Wire Line
+	-5850 25550 -5550 25550
+Wire Wire Line
+	-5850 25650 -5550 25650
+Wire Wire Line
+	-5850 25750 -5550 25750
+Wire Wire Line
+	-5850 25850 -5550 25850
+Text Label -8350 28750 0    50   ~ 0
+char5_bit0
+Text Label -8350 28850 0    50   ~ 0
+char5_bit1
+Text Label -8350 28950 0    50   ~ 0
+char5_bit2
+Text Label -8350 29050 0    50   ~ 0
+char5_bit3
+Text Label -8350 29150 0    50   ~ 0
+char5_bit4
+Text Label -8350 29250 0    50   ~ 0
+char5_bit5
+Text Label -8350 29350 0    50   ~ 0
+char5_bit6
+Text Label -8350 29450 0    50   ~ 0
+char5_bit7
+Wire Wire Line
+	-5850 24250 -5550 24250
+Wire Wire Line
+	-5850 24350 -5550 24350
+Wire Wire Line
+	-5850 24450 -5550 24450
+Wire Wire Line
+	-5850 24550 -5550 24550
+Wire Wire Line
+	-5850 24650 -5550 24650
+Wire Wire Line
+	-5850 24750 -5550 24750
+Wire Wire Line
+	-5850 24850 -5550 24850
+Wire Wire Line
+	-5850 24950 -5550 24950
+Text Label -8350 29650 0    50   ~ 0
+char6_bit0
+Text Label -8350 29750 0    50   ~ 0
+char6_bit1
+Text Label -8350 29850 0    50   ~ 0
+char6_bit2
+Text Label -8350 29950 0    50   ~ 0
+char6_bit3
+Text Label -8350 30050 0    50   ~ 0
+char6_bit4
+Text Label -8350 30150 0    50   ~ 0
+char6_bit5
+Text Label -8350 30250 0    50   ~ 0
+char6_bit6
+Text Label -8350 30350 0    50   ~ 0
+char6_bit7
+Text Label -8350 30550 0    50   ~ 0
+char7_bit0
+Text Label -8350 30650 0    50   ~ 0
+char7_bit1
+Text Label -8350 30750 0    50   ~ 0
+char7_bit2
+Text Label -8350 30850 0    50   ~ 0
+char7_bit3
+Text Label -8350 30950 0    50   ~ 0
+char7_bit4
+Text Label -8350 31050 0    50   ~ 0
+char7_bit5
+Text Label -8350 31150 0    50   ~ 0
+char7_bit6
+Text Label -8350 31250 0    50   ~ 0
+char7_bit7
+Wire Wire Line
+	-7250 29650 -6950 29650
+Wire Wire Line
+	-7250 29750 -6950 29750
+Wire Wire Line
+	-7250 29850 -6950 29850
+Wire Wire Line
+	-7250 29950 -6950 29950
+Wire Wire Line
+	-7250 30050 -6950 30050
+Wire Wire Line
+	-7250 30150 -6950 30150
+Wire Wire Line
+	-7250 30250 -6950 30250
+Wire Wire Line
+	-7250 30350 -6950 30350
+Text Notes -8800 24900 1    50   ~ 0
+Disp. on/off ctrl.
+Text Label -8650 24350 0    39   ~ 0
+0
+Text Label -8650 24550 0    39   ~ 0
+1
+Text Label -8650 24650 0    39   ~ 0
+0
+Text Label -8650 24750 0    39   ~ 0
+0
+Text Label -8650 24850 0    39   ~ 0
+0
+Text Label -8650 24950 0    39   ~ 0
+0
+Text Label -6950 24250 0    50   ~ 0
+char8_bit0
+Text Label -6950 24350 0    50   ~ 0
+char8_bit1
+Text Label -6950 24450 0    50   ~ 0
+char8_bit2
+Text Label -6950 24550 0    50   ~ 0
+char8_bit3
+Text Label -6950 24650 0    50   ~ 0
+char8_bit4
+Text Label -6950 24750 0    50   ~ 0
+char8_bit5
+Text Label -6950 24850 0    50   ~ 0
+char8_bit6
+Text Label -6950 24950 0    50   ~ 0
+char8_bit7
+Wire Wire Line
+	-7250 28750 -6950 28750
+Wire Wire Line
+	-7250 28850 -6950 28850
+Wire Wire Line
+	-7250 28950 -6950 28950
+Wire Wire Line
+	-7250 29050 -6950 29050
+Wire Wire Line
+	-7250 29150 -6950 29150
+Wire Wire Line
+	-7250 29250 -6950 29250
+Wire Wire Line
+	-7250 29350 -6950 29350
+Wire Wire Line
+	-7250 29450 -6950 29450
+Text Label -7250 28950 0    39   ~ 0
+1
+Text Label -7250 28750 0    39   ~ 0
+0
+Text Label -6950 25150 0    50   ~ 0
+char9_bit0
+Text Label -6950 25250 0    50   ~ 0
+char9_bit1
+Text Label -6950 25350 0    50   ~ 0
+char9_bit2
+Text Label -6950 25450 0    50   ~ 0
+char9_bit3
+Text Label -6950 25550 0    50   ~ 0
+char9_bit4
+Text Label -6950 25650 0    50   ~ 0
+char9_bit5
+Text Label -6950 25750 0    50   ~ 0
+char9_bit6
+Text Label -6950 25850 0    50   ~ 0
+char9_bit7
+Wire Wire Line
+	-7250 27850 -6950 27850
+Wire Wire Line
+	-7250 27950 -6950 27950
+Wire Wire Line
+	-7250 28050 -6950 28050
+Wire Wire Line
+	-7250 28150 -6950 28150
+Wire Wire Line
+	-7250 28250 -6950 28250
+Wire Wire Line
+	-7250 28350 -6950 28350
+Wire Wire Line
+	-7250 28450 -6950 28450
+Wire Wire Line
+	-7250 28550 -6950 28550
+Text Label -6950 26050 0    50   ~ 0
+char10_bit0
+Text Label -6950 26150 0    50   ~ 0
+char10_bit1
+Text Label -6950 26250 0    50   ~ 0
+char10_bit2
+Text Label -6950 26350 0    50   ~ 0
+char10_bit3
+Text Label -6950 26450 0    50   ~ 0
+char10_bit4
+Text Label -6950 26550 0    50   ~ 0
+char10_bit5
+Text Label -6950 26650 0    50   ~ 0
+char10_bit6
+Text Label -6950 26750 0    50   ~ 0
+char10_bit7
+Wire Wire Line
+	-7250 26950 -6950 26950
+Wire Wire Line
+	-7250 27050 -6950 27050
+Wire Wire Line
+	-7250 27150 -6950 27150
+Wire Wire Line
+	-7250 27250 -6950 27250
+Wire Wire Line
+	-7250 27350 -6950 27350
+Wire Wire Line
+	-7250 27450 -6950 27450
+Wire Wire Line
+	-7250 27550 -6950 27550
+Wire Wire Line
+	-7250 27650 -6950 27650
+Text Label -6950 26950 0    50   ~ 0
+char11_bit0
+Text Label -6950 27050 0    50   ~ 0
+char11_bit1
+Text Label -6950 27150 0    50   ~ 0
+char11_bit2
+Text Label -6950 27250 0    50   ~ 0
+char11_bit3
+Text Label -6950 27350 0    50   ~ 0
+char11_bit4
+Text Label -6950 27450 0    50   ~ 0
+char11_bit5
+Text Label -6950 27550 0    50   ~ 0
+char11_bit6
+Text Label -6950 27650 0    50   ~ 0
+char11_bit7
+Wire Wire Line
+	-7250 26050 -6950 26050
+Wire Wire Line
+	-7250 26150 -6950 26150
+Wire Wire Line
+	-7250 26250 -6950 26250
+Wire Wire Line
+	-7250 26350 -6950 26350
+Wire Wire Line
+	-7250 26450 -6950 26450
+Wire Wire Line
+	-7250 26550 -6950 26550
+Wire Wire Line
+	-7250 26650 -6950 26650
+Wire Wire Line
+	-7250 26750 -6950 26750
+Text Label -6950 27850 0    50   ~ 0
+char12_bit0
+Text Label -6950 27950 0    50   ~ 0
+char12_bit1
+Text Label -6950 28050 0    50   ~ 0
+char12_bit2
+Text Label -6950 28150 0    50   ~ 0
+char12_bit3
+Text Label -6950 28250 0    50   ~ 0
+char12_bit4
+Text Label -6950 28350 0    50   ~ 0
+char12_bit5
+Text Label -6950 28450 0    50   ~ 0
+char12_bit6
+Text Label -6950 28550 0    50   ~ 0
+char12_bit7
+Wire Wire Line
+	-7250 25150 -6950 25150
+Wire Wire Line
+	-7250 25250 -6950 25250
+Wire Wire Line
+	-7250 25350 -6950 25350
+Wire Wire Line
+	-7250 25450 -6950 25450
+Wire Wire Line
+	-7250 25550 -6950 25550
+Wire Wire Line
+	-7250 25650 -6950 25650
+Wire Wire Line
+	-7250 25750 -6950 25750
+Wire Wire Line
+	-7250 25850 -6950 25850
+Text Label -6950 28750 0    50   ~ 0
+char13_bit0
+Text Label -6950 28850 0    50   ~ 0
+char13_bit1
+Text Label -6950 28950 0    50   ~ 0
+char13_bit2
+Text Label -6950 29050 0    50   ~ 0
+char13_bit3
+Text Label -6950 29150 0    50   ~ 0
+char13_bit4
+Text Label -6950 29250 0    50   ~ 0
+char13_bit5
+Text Label -6950 29350 0    50   ~ 0
+char13_bit6
+Text Label -6950 29450 0    50   ~ 0
+char13_bit7
+Wire Wire Line
+	-7250 24250 -6950 24250
+Wire Wire Line
+	-7250 24350 -6950 24350
+Wire Wire Line
+	-7250 24450 -6950 24450
+Wire Wire Line
+	-7250 24550 -6950 24550
+Wire Wire Line
+	-7250 24650 -6950 24650
+Wire Wire Line
+	-7250 24750 -6950 24750
+Wire Wire Line
+	-7250 24850 -6950 24850
+Wire Wire Line
+	-7250 24950 -6950 24950
+Text Label -6950 29650 0    50   ~ 0
+char14_bit0
+Text Label -6950 29750 0    50   ~ 0
+char14_bit1
+Text Label -6950 29850 0    50   ~ 0
+char14_bit2
+Text Label -6950 29950 0    50   ~ 0
+char14_bit3
+Text Label -6950 30050 0    50   ~ 0
+char14_bit4
+Text Label -6950 30150 0    50   ~ 0
+char14_bit5
+Text Label -6950 30250 0    50   ~ 0
+char14_bit6
+Text Label -6950 30350 0    50   ~ 0
+char14_bit7
+Wire Wire Line
+	-8650 30550 -8350 30550
+Wire Wire Line
+	-8650 30650 -8350 30650
+Wire Wire Line
+	-8650 30750 -8350 30750
+Wire Wire Line
+	-8650 30850 -8350 30850
+Wire Wire Line
+	-8650 30950 -8350 30950
+Wire Wire Line
+	-8650 31050 -8350 31050
+Wire Wire Line
+	-8650 31150 -8350 31150
+Wire Wire Line
+	-8650 31250 -8350 31250
+Text Label -6950 30550 0    50   ~ 0
+char15_bit0
+Text Label -6950 30650 0    50   ~ 0
+char15_bit1
+Text Label -6950 30750 0    50   ~ 0
+char15_bit2
+Text Label -6950 30850 0    50   ~ 0
+char15_bit3
+Text Label -6950 30950 0    50   ~ 0
+char15_bit4
+Text Label -6950 31050 0    50   ~ 0
+char15_bit5
+Text Label -6950 31150 0    50   ~ 0
+char15_bit6
+Text Label -6950 31250 0    50   ~ 0
+char15_bit7
+Wire Wire Line
+	-8650 29650 -8350 29650
+Wire Wire Line
+	-8650 29750 -8350 29750
+Wire Wire Line
+	-8650 29850 -8350 29850
+Wire Wire Line
+	-8650 29950 -8350 29950
+Wire Wire Line
+	-8650 30050 -8350 30050
+Wire Wire Line
+	-8650 30150 -8350 30150
+Wire Wire Line
+	-8650 30250 -8350 30250
+Wire Wire Line
+	-8650 30350 -8350 30350
+Text Label -7250 28850 0    39   ~ 0
+0
+Text Label -7250 29050 0    39   ~ 0
+1
+Text Label -7250 29150 0    39   ~ 0
+0
+Text Label -7250 29250 0    39   ~ 0
+0
+Text Label -7250 29350 0    39   ~ 0
+0
+Text Label -7250 29450 0    39   ~ 0
+0
+Text Label -5550 24250 0    50   ~ 0
+char16_bit0
+Text Label -5550 24350 0    50   ~ 0
+char16_bit1
+Text Label -5550 24450 0    50   ~ 0
+char16_bit2
+Text Label -5550 24550 0    50   ~ 0
+char16_bit3
+Text Label -5550 24650 0    50   ~ 0
+char16_bit4
+Text Label -5550 24750 0    50   ~ 0
+char16_bit5
+Text Label -5550 24850 0    50   ~ 0
+char16_bit6
+Text Label -5550 24950 0    50   ~ 0
+char16_bit7
+Wire Wire Line
+	-8650 28750 -8350 28750
+Wire Wire Line
+	-8650 28850 -8350 28850
+Wire Wire Line
+	-8650 28950 -8350 28950
+Wire Wire Line
+	-8650 29050 -8350 29050
+Wire Wire Line
+	-8650 29150 -8350 29150
+Wire Wire Line
+	-8650 29250 -8350 29250
+Wire Wire Line
+	-8650 29350 -8350 29350
+Wire Wire Line
+	-8650 29450 -8350 29450
+Text Label -8650 28950 0    39   ~ 0
+1
+Text Label -5550 25150 0    50   ~ 0
+char17_bit0
+Text Label -5550 25250 0    50   ~ 0
+char17_bit1
+Text Label -5550 25350 0    50   ~ 0
+char17_bit2
+Text Label -5550 25450 0    50   ~ 0
+char17_bit3
+Text Label -5550 25550 0    50   ~ 0
+char17_bit4
+Text Label -5550 25650 0    50   ~ 0
+char17_bit5
+Text Label -5550 25750 0    50   ~ 0
+char17_bit6
+Text Label -5550 25850 0    50   ~ 0
+char17_bit7
+Text Label -5550 26050 0    50   ~ 0
+char18_bit0
+Text Label -5550 26150 0    50   ~ 0
+char18_bit1
+Text Label -5550 26250 0    50   ~ 0
+char18_bit2
+Text Label -5550 26350 0    50   ~ 0
+char18_bit3
+Text Label -5550 26450 0    50   ~ 0
+char18_bit4
+Text Label -5550 26550 0    50   ~ 0
+char18_bit5
+Text Label -5550 26650 0    50   ~ 0
+char18_bit6
+Text Label -5550 26750 0    50   ~ 0
+char18_bit7
+Wire Wire Line
+	-8650 26950 -8350 26950
+Wire Wire Line
+	-8650 27050 -8350 27050
+Wire Wire Line
+	-8650 27150 -8350 27150
+Wire Wire Line
+	-8650 27250 -8350 27250
+Wire Wire Line
+	-8650 27350 -8350 27350
+Wire Wire Line
+	-8650 27450 -8350 27450
+Wire Wire Line
+	-8650 27550 -8350 27550
+Wire Wire Line
+	-8650 27650 -8350 27650
+Text Label -5550 26950 0    50   ~ 0
+char19_bit0
+Text Label -5550 27050 0    50   ~ 0
+char19_bit1
+Text Label -5550 27150 0    50   ~ 0
+char19_bit2
+Text Label -5550 27250 0    50   ~ 0
+char19_bit3
+Text Label -5550 27350 0    50   ~ 0
+char19_bit4
+Text Label -5550 27450 0    50   ~ 0
+char19_bit5
+Text Label -5550 27550 0    50   ~ 0
+char19_bit6
+Text Label -5550 27650 0    50   ~ 0
+char19_bit7
+Wire Wire Line
+	-5850 26950 -5550 26950
+Wire Wire Line
+	-5850 27050 -5550 27050
+Wire Wire Line
+	-5850 27150 -5550 27150
+Wire Wire Line
+	-5850 27250 -5550 27250
+Wire Wire Line
+	-5850 27350 -5550 27350
+Wire Wire Line
+	-5850 27450 -5550 27450
+Wire Wire Line
+	-5850 27550 -5550 27550
+Wire Wire Line
+	-5850 27650 -5550 27650
+Text Label -5550 27850 0    50   ~ 0
+char20_bit0
+Text Label -5550 27950 0    50   ~ 0
+char20_bit1
+Text Label -5550 28050 0    50   ~ 0
+char20_bit2
+Text Label -5550 28150 0    50   ~ 0
+char20_bit3
+Text Label -5550 28250 0    50   ~ 0
+char20_bit4
+Text Label -5550 28350 0    50   ~ 0
+char20_bit5
+Text Label -5550 28450 0    50   ~ 0
+char20_bit6
+Text Label -5550 28550 0    50   ~ 0
+char20_bit7
+Text Label -5550 28750 0    50   ~ 0
+char21_bit0
+Text Label -5550 28850 0    50   ~ 0
+char21_bit1
+Text Label -5550 28950 0    50   ~ 0
+char21_bit2
+Text Label -5550 29050 0    50   ~ 0
+char21_bit3
+Text Label -5550 29150 0    50   ~ 0
+char21_bit4
+Text Label -5550 29250 0    50   ~ 0
+char21_bit5
+Text Label -5550 29350 0    50   ~ 0
+char21_bit6
+Text Label -5550 29450 0    50   ~ 0
+char21_bit7
+Wire Wire Line
+	-5850 28750 -5550 28750
+Wire Wire Line
+	-5850 28850 -5550 28850
+Wire Wire Line
+	-5850 28950 -5550 28950
+Wire Wire Line
+	-5850 29050 -5550 29050
+Wire Wire Line
+	-5850 29150 -5550 29150
+Wire Wire Line
+	-5850 29250 -5550 29250
+Wire Wire Line
+	-5850 29350 -5550 29350
+Wire Wire Line
+	-5850 29450 -5550 29450
+Text Label -5550 29650 0    50   ~ 0
+char22_bit0
+Text Label -5550 29750 0    50   ~ 0
+char22_bit1
+Text Label -5550 29850 0    50   ~ 0
+char22_bit2
+Text Label -5550 29950 0    50   ~ 0
+char22_bit3
+Text Label -5550 30050 0    50   ~ 0
+char22_bit4
+Text Label -5550 30150 0    50   ~ 0
+char22_bit5
+Text Label -5550 30250 0    50   ~ 0
+char22_bit6
+Text Label -5550 30350 0    50   ~ 0
+char22_bit7
+Wire Wire Line
+	-5850 29650 -5550 29650
+Wire Wire Line
+	-5850 29750 -5550 29750
+Wire Wire Line
+	-5850 29850 -5550 29850
+Wire Wire Line
+	-5850 29950 -5550 29950
+Wire Wire Line
+	-5850 30050 -5550 30050
+Wire Wire Line
+	-5850 30150 -5550 30150
+Wire Wire Line
+	-5850 30250 -5550 30250
+Wire Wire Line
+	-5850 30350 -5550 30350
+Text Label -5550 30550 0    50   ~ 0
+char23_bit0
+Text Label -5550 30650 0    50   ~ 0
+char23_bit1
+Text Label -5550 30750 0    50   ~ 0
+char23_bit2
+Text Label -5550 30850 0    50   ~ 0
+char23_bit3
+Text Label -5550 30950 0    50   ~ 0
+char23_bit4
+Text Label -5550 31050 0    50   ~ 0
+char23_bit5
+Text Label -5550 31150 0    50   ~ 0
+char23_bit6
+Text Label -5550 31250 0    50   ~ 0
+char23_bit7
+Wire Wire Line
+	-5850 30550 -5550 30550
+Wire Wire Line
+	-5850 30650 -5550 30650
+Wire Wire Line
+	-5850 30750 -5550 30750
+Wire Wire Line
+	-5850 30850 -5550 30850
+Wire Wire Line
+	-5850 30950 -5550 30950
+Wire Wire Line
+	-5850 31050 -5550 31050
+Wire Wire Line
+	-5850 31150 -5550 31150
+Wire Wire Line
+	-5850 31250 -5550 31250
+Text Label -8650 29050 0    39   ~ 0
+1
+Text Label -4150 24250 0    50   ~ 0
+char24_bit0
+Text Label -4150 24350 0    50   ~ 0
+char24_bit1
+Text Label -4150 24450 0    50   ~ 0
+char24_bit2
+Text Label -4150 24550 0    50   ~ 0
+char24_bit3
+Text Label -4150 24650 0    50   ~ 0
+char24_bit4
+Text Label -4150 24750 0    50   ~ 0
+char24_bit5
+Text Label -4150 24850 0    50   ~ 0
+char24_bit6
+Text Label -4150 24950 0    50   ~ 0
+char24_bit7
+Wire Wire Line
+	-4450 24250 -4150 24250
+Wire Wire Line
+	-4450 24350 -4150 24350
+Wire Wire Line
+	-4450 24450 -4150 24450
+Wire Wire Line
+	-4450 24550 -4150 24550
+Wire Wire Line
+	-4450 24650 -4150 24650
+Wire Wire Line
+	-4450 24750 -4150 24750
+Wire Wire Line
+	-4450 24850 -4150 24850
+Wire Wire Line
+	-4450 24950 -4150 24950
+Text Label -4150 25150 0    50   ~ 0
+char25_bit0
+Text Label -4150 25250 0    50   ~ 0
+char25_bit1
+Text Label -4150 25350 0    50   ~ 0
+char25_bit2
+Text Label -4150 25450 0    50   ~ 0
+char25_bit3
+Text Label -4150 25550 0    50   ~ 0
+char25_bit4
+Text Label -4150 25650 0    50   ~ 0
+char25_bit5
+Text Label -4150 25750 0    50   ~ 0
+char25_bit6
+Text Label -4150 25850 0    50   ~ 0
+char25_bit7
+Wire Wire Line
+	-4450 25150 -4150 25150
+Wire Wire Line
+	-4450 25250 -4150 25250
+Wire Wire Line
+	-4450 25350 -4150 25350
+Wire Wire Line
+	-4450 25450 -4150 25450
+Wire Wire Line
+	-4450 25550 -4150 25550
+Wire Wire Line
+	-4450 25650 -4150 25650
+Wire Wire Line
+	-4450 25750 -4150 25750
+Wire Wire Line
+	-4450 25850 -4150 25850
+Text Label -4150 26050 0    50   ~ 0
+char26_bit0
+Text Label -4150 26150 0    50   ~ 0
+char26_bit1
+Text Label -4150 26250 0    50   ~ 0
+char26_bit2
+Text Label -4150 26350 0    50   ~ 0
+char26_bit3
+Text Label -4150 26450 0    50   ~ 0
+char26_bit4
+Text Label -4150 26550 0    50   ~ 0
+char26_bit5
+Text Label -4150 26650 0    50   ~ 0
+char26_bit6
+Text Label -4150 26750 0    50   ~ 0
+char26_bit7
+Wire Wire Line
+	-4450 26050 -4150 26050
+Wire Wire Line
+	-4450 26150 -4150 26150
+Wire Wire Line
+	-4450 26250 -4150 26250
+Wire Wire Line
+	-4450 26350 -4150 26350
+Wire Wire Line
+	-4450 26450 -4150 26450
+Wire Wire Line
+	-4450 26550 -4150 26550
+Wire Wire Line
+	-4450 26650 -4150 26650
+Wire Wire Line
+	-4450 26750 -4150 26750
+Text Label -4150 26950 0    50   ~ 0
+char27_bit0
+Text Label -4150 27050 0    50   ~ 0
+char27_bit1
+Text Label -4150 27150 0    50   ~ 0
+char27_bit2
+Text Label -4150 27250 0    50   ~ 0
+char27_bit3
+Text Label -4150 27350 0    50   ~ 0
+char27_bit4
+Text Label -4150 27450 0    50   ~ 0
+char27_bit5
+Text Label -4150 27550 0    50   ~ 0
+char27_bit6
+Text Label -4150 27650 0    50   ~ 0
+char27_bit7
+Wire Wire Line
+	-4450 26950 -4150 26950
+Wire Wire Line
+	-4450 27050 -4150 27050
+Wire Wire Line
+	-4450 27150 -4150 27150
+Wire Wire Line
+	-4450 27250 -4150 27250
+Wire Wire Line
+	-4450 27350 -4150 27350
+Wire Wire Line
+	-4450 27450 -4150 27450
+Wire Wire Line
+	-4450 27550 -4150 27550
+Wire Wire Line
+	-4450 27650 -4150 27650
+Text Label -4150 27850 0    50   ~ 0
+char28_bit0
+Text Label -4150 27950 0    50   ~ 0
+char28_bit1
+Text Label -4150 28050 0    50   ~ 0
+char28_bit2
+Text Label -4150 28150 0    50   ~ 0
+char28_bit3
+Text Label -4150 28250 0    50   ~ 0
+char28_bit4
+Text Label -4150 28350 0    50   ~ 0
+char28_bit5
+Text Label -4150 28450 0    50   ~ 0
+char28_bit6
+Text Label -4150 28550 0    50   ~ 0
+char28_bit7
+Wire Wire Line
+	-4450 27850 -4150 27850
+Wire Wire Line
+	-4450 27950 -4150 27950
+Wire Wire Line
+	-4450 28050 -4150 28050
+Wire Wire Line
+	-4450 28150 -4150 28150
+Wire Wire Line
+	-4450 28250 -4150 28250
+Wire Wire Line
+	-4450 28350 -4150 28350
+Wire Wire Line
+	-4450 28450 -4150 28450
+Wire Wire Line
+	-4450 28550 -4150 28550
+Text Label -4150 28750 0    50   ~ 0
+char29_bit0
+Text Label -4150 28850 0    50   ~ 0
+char29_bit1
+Text Label -4150 28950 0    50   ~ 0
+char29_bit2
+Text Label -4150 29050 0    50   ~ 0
+char29_bit3
+Text Label -4150 29150 0    50   ~ 0
+char29_bit4
+Text Label -4150 29250 0    50   ~ 0
+char29_bit5
+Text Label -4150 29350 0    50   ~ 0
+char29_bit6
+Text Label -4150 29450 0    50   ~ 0
+char29_bit7
+Wire Wire Line
+	-4450 28750 -4150 28750
+Wire Wire Line
+	-4450 28850 -4150 28850
+Wire Wire Line
+	-4450 28950 -4150 28950
+Wire Wire Line
+	-4450 29050 -4150 29050
+Wire Wire Line
+	-4450 29150 -4150 29150
+Wire Wire Line
+	-4450 29250 -4150 29250
+Wire Wire Line
+	-4450 29350 -4150 29350
+Wire Wire Line
+	-4450 29450 -4150 29450
+Text Label -4150 29650 0    50   ~ 0
+char30_bit0
+Text Label -4150 29750 0    50   ~ 0
+char30_bit1
+Text Label -4150 29850 0    50   ~ 0
+char30_bit2
+Text Label -4150 29950 0    50   ~ 0
+char30_bit3
+Text Label -4150 30050 0    50   ~ 0
+char30_bit4
+Text Label -4150 30150 0    50   ~ 0
+char30_bit5
+Text Label -4150 30250 0    50   ~ 0
+char30_bit6
+Text Label -4150 30350 0    50   ~ 0
+char30_bit7
+Wire Wire Line
+	-4450 29650 -4150 29650
+Wire Wire Line
+	-4450 29750 -4150 29750
+Wire Wire Line
+	-4450 29850 -4150 29850
+Wire Wire Line
+	-4450 29950 -4150 29950
+Wire Wire Line
+	-4450 30050 -4150 30050
+Wire Wire Line
+	-4450 30150 -4150 30150
+Wire Wire Line
+	-4450 30250 -4150 30250
+Wire Wire Line
+	-4450 30350 -4150 30350
+Text Label -4150 30550 0    50   ~ 0
+char31_bit0
+Text Label -4150 30650 0    50   ~ 0
+char31_bit1
+Text Label -4150 30750 0    50   ~ 0
+char31_bit2
+Text Label -4150 30850 0    50   ~ 0
+char31_bit3
+Text Label -4150 30950 0    50   ~ 0
+char31_bit4
+Text Label -4150 31050 0    50   ~ 0
+char31_bit5
+Text Label -4150 31150 0    50   ~ 0
+char31_bit6
+Text Label -4150 31250 0    50   ~ 0
+char31_bit7
+Wire Wire Line
+	-4450 30550 -4150 30550
+Wire Wire Line
+	-4450 30650 -4150 30650
+Wire Wire Line
+	-4450 30750 -4150 30750
+Wire Wire Line
+	-4450 30850 -4150 30850
+Wire Wire Line
+	-4450 30950 -4150 30950
+Wire Wire Line
+	-4450 31050 -4150 31050
+Wire Wire Line
+	-4450 31150 -4150 31150
+Wire Wire Line
+	-4450 31250 -4150 31250
+Text Notes -8800 25750 1    50   ~ 0
+Function set
+Text Label -8650 25850 0    39   ~ 0
+0
+Text Label -8650 25750 0    39   ~ 0
+0
+Text Label -8650 25350 0    39   ~ 0
+0
+Text Label -8650 25250 0    39   ~ 0
+0
+Text Label -8650 25150 0    39   ~ 0
+1
+Text Label -8650 25450 0    39   ~ 0
+1
+Text Label -8650 25550 0    39   ~ 0
+1
+Text Label -8650 25650 0    39   ~ 0
+1
+Text Notes -8800 26650 1    50   ~ 0
+DDRAM address\nfor first row
+Text Label -8650 26750 0    39   ~ 0
+1
+Text Label -8650 26650 0    39   ~ 0
+0
+Text Label -8650 26550 0    39   ~ 0
+0
+Text Label -8650 26450 0    39   ~ 0
+0
+Text Label -8650 26350 0    39   ~ 0
+1
+Text Label -8650 26250 0    39   ~ 0
+1
+Text Label -8650 26150 0    39   ~ 0
+1
+Text Label -8650 26050 0    39   ~ 0
+1
+Text Notes -6000 26650 1    50   ~ 0
+1st line\n1st character\n(filename7)
+Text Notes -6000 25750 1    50   ~ 0
+1st line\n2nd character\n(filename6)
+Text Notes -7400 30250 1    50   ~ 0
+1st line\n5th character\n(filename3)
+Text Notes -7400 29350 1    50   ~ 0
+1st line\ne6th character\n(filename2)
+Text Notes -7400 28450 1    50   ~ 0
+1st line\n7th character\n(filename1)
+Text Notes -7400 27550 1    50   ~ 0
+1st line\n8th character\n(filename0)
+Text Notes -7400 26650 1    50   ~ 0
+1st line\n9th character\n(full stop)
+Text Label -7250 26750 0    39   ~ 0
+0
+Text Label -7250 26650 0    39   ~ 0
+0
+Text Label -7250 26450 0    39   ~ 0
+0
+Text Label -7250 26050 0    39   ~ 0
+0
+Text Label -7250 26150 0    39   ~ 0
+1
+Text Label -7250 26250 0    39   ~ 0
+1
+Text Label -7250 26350 0    39   ~ 0
+1
+Text Label -7250 26550 0    39   ~ 0
+1
+Text Notes -7400 25750 1    50   ~ 0
+1st line\n10th character\n(fileext2)
+Text Notes -7400 24850 1    50   ~ 0
+1st line\n11th character\n(fileext1)
+Text Notes -8800 31150 1    50   ~ 0
+1st line\n12th character\n(fileext0)
+Text Notes -8800 30250 1    50   ~ 0
+1st line\n13th character\n(blank)
+Text Label -8650 30350 0    39   ~ 0
+0
+Text Label -8650 30250 0    39   ~ 0
+0
+Text Label -8650 30050 0    39   ~ 0
+0
+Text Label -8650 30150 0    39   ~ 0
+1
+Text Label -8650 29850 0    39   ~ 0
+0
+Text Label -8650 29750 0    39   ~ 0
+0
+Text Label -8650 29950 0    39   ~ 0
+0
+Text Label -8650 29650 0    39   ~ 0
+0
+Text Notes -8800 29350 1    50   ~ 0
+1st line\n14th character\n(left arrow)
+Text Label -8650 28850 0    39   ~ 0
+1
+Text Label -8650 28750 0    39   ~ 0
+1
+Wire Wire Line
+	-8650 27850 -8350 27850
+Wire Wire Line
+	-8650 27950 -8350 27950
+Wire Wire Line
+	-8650 28050 -8350 28050
+Wire Wire Line
+	-8650 28150 -8350 28150
+Wire Wire Line
+	-8650 28250 -8350 28250
+Wire Wire Line
+	-8650 28350 -8350 28350
+Wire Wire Line
+	-8650 28450 -8350 28450
+Wire Wire Line
+	-8650 28550 -8350 28550
+Text Notes -8800 28450 1    50   ~ 0
+1st line\n15th character\n(blank)
+Text Label -8650 28550 0    39   ~ 0
+0
+Text Label -8650 28450 0    39   ~ 0
+0
+Text Label -8650 28250 0    39   ~ 0
+0
+Text Label -8650 28350 0    39   ~ 0
+1
+Text Label -8650 28050 0    39   ~ 0
+0
+Text Label -8650 27950 0    39   ~ 0
+0
+Text Label -8650 28150 0    39   ~ 0
+0
+Text Label -8650 27850 0    39   ~ 0
+0
+Text Notes -8800 27550 1    50   ~ 0
+1st line\n16th character\n(right arrow)
+Text Label -8650 27150 0    39   ~ 0
+1
+Text Label -8650 27050 0    39   ~ 0
+1
+Text Label -8650 27250 0    39   ~ 0
+1
+Text Label -8650 26950 0    39   ~ 0
+0
+Text Notes -7400 31150 1    50   ~ 0
+1st line\n4th character\n(filename4)
+Wire Wire Line
+	-7250 31250 -6950 31250
+Wire Wire Line
+	-7250 31150 -6950 31150
+Wire Wire Line
+	-7250 31050 -6950 31050
+Wire Wire Line
+	-7250 30950 -6950 30950
+Wire Wire Line
+	-7250 30850 -6950 30850
+Wire Wire Line
+	-7250 30750 -6950 30750
+Wire Wire Line
+	-7250 30650 -6950 30650
+Wire Wire Line
+	-7250 30550 -6950 30550
+Text Notes -6000 24850 1    50   ~ 0
+1st line\n3rd character\n(filename5)
+Text Notes -6000 27550 1    50   ~ 0
+DDRAM address\nfor second row
+Text Label -5850 27450 0    39   ~ 0
+0
+Text Label -5850 27650 0    39   ~ 0
+1
+Text Label -5850 27550 0    39   ~ 0
+1
+Text Label -5850 27350 0    39   ~ 0
+0
+Text Label -5850 27250 0    39   ~ 0
+1
+Text Label -5850 27150 0    39   ~ 0
+0
+Text Label -5850 27050 0    39   ~ 0
+1
+Text Label -5850 26950 0    39   ~ 0
+1
+Text Notes -6000 28450 1    50   ~ 0
+2nd line\n12th character\n(blank)
+Text Notes -6000 29350 1    50   ~ 0
+2nd line\n11th character\n(total seconds)
+Wire Wire Line
+	-5850 27850 -5550 27850
+Wire Wire Line
+	-5850 27950 -5550 27950
+Wire Wire Line
+	-5850 28050 -5550 28050
+Wire Wire Line
+	-5850 28150 -5550 28150
+Wire Wire Line
+	-5850 28250 -5550 28250
+Wire Wire Line
+	-5850 28350 -5550 28350
+Wire Wire Line
+	-5850 28450 -5550 28450
+Wire Wire Line
+	-5850 28550 -5550 28550
+Text Label -5850 28550 0    39   ~ 0
+0
+Text Label -5850 28450 0    39   ~ 0
+0
+Text Label -5850 28250 0    39   ~ 0
+0
+Text Label -5850 28350 0    39   ~ 0
+1
+Text Label -5850 28050 0    39   ~ 0
+0
+Text Label -5850 27950 0    39   ~ 0
+0
+Text Label -5850 28150 0    39   ~ 0
+0
+Text Label -5850 27850 0    39   ~ 0
+0
+Text Notes -6000 30250 1    50   ~ 0
+2nd line\n10th character\n(total seconds)
+Text Notes -6000 31150 1    50   ~ 0
+2nd line\n9th character\n(colon)
+Text Notes -4600 25750 1    50   ~ 0
+2nd line\n7th character\n(total minutes)
+Text Notes -4600 26650 1    50   ~ 0
+2nd line\n6th character\n(slash)
+Text Notes -4600 27550 1    50   ~ 0
+2nd line\n5th character\n(played seconds)
+Text Notes -4600 28450 1    50   ~ 0
+2nd line\n4th character\n(played seconds)
+Text Notes -4600 29350 1    50   ~ 0
+2nd line\n3rd character\n(colon)
+Text Notes -4600 30250 1    50   ~ 0
+2nd line\n2nd character\n(played minutes)
+Text Notes -4600 31150 1    50   ~ 0
+2nd line\n1st character\n(played minutes)
+Text Notes -4600 24850 1    50   ~ 0
+2nd line\n8th character\n(total minutes)
+$Comp
+L My_74xx:74HC85 U?
+U 1 1 6A43BFF7
+P -7750 22300
+F 0 "U?" H -7750 22967 50  0000 C CNN
+F 1 "74HC85" H -7750 22876 50  0000 C CNN
+F 2 "" H -7750 22300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/Nexperia-74HC85D-653_C5953.pdf" H -7750 22300 50  0001 C CNN
+	1    -7750 22300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6AC90FAE
+P -7150 22200
+F 0 "#PWR?" H -7150 21950 50  0001 C CNN
+F 1 "GND" H -7145 22027 50  0000 C CNN
+F 2 "" H -7150 22200 50  0001 C CNN
+F 3 "" H -7150 22200 50  0001 C CNN
+	1    -7150 22200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-7250 22100 -7150 22100
+Wire Wire Line
+	-7150 22100 -7150 22200
+Wire Wire Line
+	-7250 22000 -7150 22000
+Wire Wire Line
+	-7150 22000 -7150 22100
+Connection ~ -7150 22100
+Text Label -8500 21900 0    39   ~ 0
+0
+Wire Wire Line
+	-8500 21900 -8250 21900
+Wire Wire Line
+	-8500 22000 -8250 22000
+Wire Wire Line
+	-8500 22100 -8250 22100
+Wire Wire Line
+	-8500 22200 -8250 22200
+Text Label -8750 22400 0    50   ~ 0
+disp_addr3
+Wire Wire Line
+	-8750 22400 -8250 22400
+Text Label -8750 22500 0    50   ~ 0
+disp_addr2
+Text Label -8750 22600 0    50   ~ 0
+disp_addr1
+Text Label -8750 22700 0    50   ~ 0
+disp_addr0
+Wire Wire Line
+	-8750 22500 -8250 22500
+Wire Wire Line
+	-8250 22600 -8750 22600
+Wire Wire Line
+	-8750 22700 -8250 22700
+Text Notes -8200 21550 0    50   ~ 0
+Current display byte >2?
+Wire Wire Line
+	-7150 22000 -7150 21900
+Wire Wire Line
+	-7150 21900 -7250 21900
+Connection ~ -7150 22000
+Text Label -8500 22100 0    39   ~ 0
+0
+Text Label -8500 22200 0    39   ~ 0
+0
+Text Label -8500 22000 0    39   ~ 0
+1
+NoConn ~ -7250 22700
+NoConn ~ -7250 22600
+$Comp
+L My_74xx:74HC85 U?
+U 1 1 6D08109C
+P -5300 22300
+F 0 "U?" H -5300 22967 50  0000 C CNN
+F 1 "74HC85" H -5300 22876 50  0000 C CNN
+F 2 "" H -5300 22300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/Nexperia-74HC85D-653_C5953.pdf" H -5300 22300 50  0001 C CNN
+	1    -5300 22300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6D0813AC
+P -4700 22200
+F 0 "#PWR?" H -4700 21950 50  0001 C CNN
+F 1 "GND" H -4695 22027 50  0000 C CNN
+F 2 "" H -4700 22200 50  0001 C CNN
+F 3 "" H -4700 22200 50  0001 C CNN
+	1    -4700 22200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	-4800 22100 -4700 22100
+Wire Wire Line
+	-4700 22100 -4700 22200
+Wire Wire Line
+	-4800 22000 -4700 22000
+Wire Wire Line
+	-4700 22000 -4700 22100
+Connection ~ -4700 22100
+Wire Wire Line
+	-6050 21900 -5800 21900
+Wire Wire Line
+	-6050 22000 -5800 22000
+Wire Wire Line
+	-6050 22100 -5800 22100
+Wire Wire Line
+	-6050 22200 -5800 22200
+Text Label -6300 22400 0    50   ~ 0
+disp_addr3
+Wire Wire Line
+	-6300 22400 -5800 22400
+Text Label -6300 22500 0    50   ~ 0
+disp_addr2
+Text Label -6300 22600 0    50   ~ 0
+disp_addr1
+Text Label -6300 22700 0    50   ~ 0
+disp_addr0
+Wire Wire Line
+	-6300 22500 -5800 22500
+Wire Wire Line
+	-5800 22600 -6300 22600
+Wire Wire Line
+	-6300 22700 -5800 22700
+Text Notes -5750 21550 0    50   ~ 0
+Current display byte >19?
+Wire Wire Line
+	-4700 22000 -4700 21900
+Wire Wire Line
+	-4700 21900 -4800 21900
+Connection ~ -4700 22000
+Text Label -6050 22100 0    39   ~ 0
+0
+Text Label -6050 22200 0    39   ~ 0
+0
+Text Label -6050 22000 0    39   ~ 0
+1
+NoConn ~ -4800 22700
+Wire Wire Line
+	-7250 22500 -7150 22500
+Wire Wire Line
+	-7150 22500 -7150 22950
+Wire Wire Line
+	-7150 22950 -7050 22950
+$Comp
+L 74xx:74LS32 U?
+U 1 1 6D4F1E56
+P -6750 23050
+F 0 "U?" H -6800 23250 50  0000 C CNN
+F 1 "74LS32" H -6800 22850 50  0000 C CNN
+F 2 "" H -6750 23050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H -6750 23050 50  0001 C CNN
+	1    -6750 23050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	-7050 23150 -7500 23150
+Text Label -7500 23150 0    50   ~ 0
+disp_addr4
+$Comp
+L 74xx:74LS08 U?
+U 2 1 6D973356
+P -4300 23050
+F 0 "U?" H -4350 22850 50  0000 C CNN
+F 1 "74LS08" H -4300 23250 50  0000 C CNN
+F 2 "" H -4300 23050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS08" H -4300 23050 50  0001 C CNN
+	2    -4300 23050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4800 22500 -4700 22500
+Wire Wire Line
+	-4700 22500 -4700 22950
+Wire Wire Line
+	-4700 22950 -4600 22950
+Wire Wire Line
+	-4600 23150 -5050 23150
+Text Label -5050 23150 0    50   ~ 0
+disp_addr4
+Text Label -6050 21900 0    39   ~ 0
+1
 $EndSCHEMATC
