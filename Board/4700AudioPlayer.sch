@@ -46,23 +46,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/cd74hc40103.pdf" H 24950 2650 50  0001 C 
 	1    24900 4550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	25900 4550 25950 4550
-$Comp
-L power:GND #PWR013
-U 1 1 60BDB6F9
-P 20850 4850
-F 0 "#PWR013" H 20850 4600 50  0001 C CNN
-F 1 "GND" H 20855 4677 50  0000 C CNN
-F 2 "" H 20850 4850 50  0001 C CNN
-F 3 "" H 20850 4850 50  0001 C CNN
-	1    20850 4850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	23150 4550 23200 4550
-Wire Wire Line
-	20850 4550 20850 4850
 $Comp
 L power:GND #PWR05
 U 1 1 60BDB710
@@ -196,17 +179,6 @@ F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4071bms-72bms
 	1    21450 5550
 	-1   0    0    1   
 $EndComp
-$Comp
-L My_74xx:74HC40103 U5
-U 1 1 60BDB6DC
-P 22150 4550
-F 0 "U5" V 22500 5500 50  0000 L CNN
-F 1 "74HC40103" V 22600 5200 50  0000 L CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 22200 2650 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/cd74hc40103.pdf" H 22200 2650 50  0001 C CNN
-	1    22150 4550
-	0    1    1    0   
-$EndComp
 Text Label 20550 6450 0    50   ~ 0
 n_header_done
 Wire Wire Line
@@ -251,18 +223,6 @@ Wire Wire Line
 Connection ~ 25600 7450
 Wire Wire Line
 	25600 7350 25600 7450
-Wire Wire Line
-	29100 4550 29200 4550
-Wire Wire Line
-	26450 4550 26350 4550
-Wire Wire Line
-	31400 4550 31450 4550
-Wire Wire Line
-	28700 4550 28650 4550
-Wire Wire Line
-	20950 4550 20850 4550
-Wire Wire Line
-	23700 4550 23600 4550
 $Comp
 L power:GND #PWR?
 U 1 1 61220488
@@ -288,101 +248,30 @@ $EndComp
 Wire Wire Line
 	650  750  650  950 
 $Comp
-L power:GND #PWR014
-U 1 1 60BDB6AD
-P 23600 4850
-F 0 "#PWR014" H 23600 4600 50  0001 C CNN
-F 1 "GND" H 23605 4677 50  0000 C CNN
-F 2 "" H 23600 4850 50  0001 C CNN
-F 3 "" H 23600 4850 50  0001 C CNN
-	1    23600 4850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	23600 4550 23600 4850
-$Comp
-L power:GND #PWR015
-U 1 1 60BCFFC0
-P 26350 4850
-F 0 "#PWR015" H 26350 4600 50  0001 C CNN
-F 1 "GND" H 26355 4677 50  0000 C CNN
-F 2 "" H 26350 4850 50  0001 C CNN
-F 3 "" H 26350 4850 50  0001 C CNN
-	1    26350 4850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	26350 4550 26350 4850
-Wire Wire Line
-	29100 4550 29100 4850
-$Comp
-L power:GND #PWR016
-U 1 1 60BB2F77
-P 29100 4850
-F 0 "#PWR016" H 29100 4600 50  0001 C CNN
-F 1 "GND" H 29105 4677 50  0000 C CNN
-F 2 "" H 29100 4850 50  0001 C CNN
-F 3 "" H 29100 4850 50  0001 C CNN
-	1    29100 4850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	31450 3500 31450 3600
-Wire Wire Line
-	25950 3500 25950 3600
-Wire Wire Line
-	24450 3600 24450 4050
-Wire Wire Line
-	28700 3500 28700 3600
-Wire Wire Line
-	27200 3600 27200 4050
-Wire Wire Line
-	29950 3600 29950 4050
-Wire Wire Line
-	31450 3600 31450 4550
-Wire Wire Line
-	28700 3600 28700 4550
-Wire Wire Line
-	25950 3600 25950 4550
-$Comp
 L power:+3V3 #PWR?
 U 1 1 60EA1851
-P 23200 3500
-F 0 "#PWR?" H 23200 3350 50  0001 C CNN
-F 1 "+3V3" H 23215 3673 50  0000 C CNN
-F 2 "" H 23200 3500 50  0001 C CNN
-F 3 "" H 23200 3500 50  0001 C CNN
-	1    23200 3500
+P 21700 3500
+F 0 "#PWR?" H 21700 3350 50  0001 C CNN
+F 1 "+3V3" H 21715 3673 50  0000 C CNN
+F 2 "" H 21700 3500 50  0001 C CNN
+F 3 "" H 21700 3500 50  0001 C CNN
+	1    21700 3500
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	900  650  900  850 
 Wire Wire Line
-	25950 3600 24450 3600
-Wire Wire Line
 	25350 5500 21750 5500
-Wire Wire Line
-	28700 3600 27200 3600
-Wire Wire Line
-	31450 3600 29950 3600
 Wire Wire Line
 	26900 3800 24150 3800
 Wire Wire Line
 	21400 4050 21400 3800
 Wire Wire Line
-	29550 3450 29550 4050
+	29550 3550 29550 4050
 Wire Wire Line
 	21600 3700 21600 4050
 Wire Wire Line
 	27100 3700 24350 3700
-Wire Wire Line
-	23200 3600 21700 3600
-Wire Wire Line
-	23200 3600 23200 4550
-Wire Wire Line
-	21700 3600 21700 4050
-Wire Wire Line
-	23200 3500 23200 3600
 Wire Wire Line
 	21300 4000 21300 4050
 Wire Wire Line
@@ -394,31 +283,11 @@ Wire Wire Line
 Wire Wire Line
 	22800 4050 22800 3900
 Wire Wire Line
-	22800 3900 20850 3900
-Wire Wire Line
-	20850 3900 20850 4550
-Connection ~ 20850 4550
-Wire Wire Line
 	25550 4050 25550 3900
-Wire Wire Line
-	25550 3900 23600 3900
-Wire Wire Line
-	23600 3900 23600 4550
-Connection ~ 23600 4550
 Wire Wire Line
 	28300 4050 28300 3900
 Wire Wire Line
-	28300 3900 26350 3900
-Wire Wire Line
-	26350 3900 26350 4550
-Connection ~ 26350 4550
-Wire Wire Line
 	31050 4050 31050 3900
-Wire Wire Line
-	31050 3900 29100 3900
-Wire Wire Line
-	29100 3900 29100 4550
-Connection ~ 29100 4550
 Wire Wire Line
 	29900 6250 29900 6350
 Wire Wire Line
@@ -555,12 +424,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR?
 U 1 1 61EC3174
-P 25950 3500
-F 0 "#PWR?" H 25950 3350 50  0001 C CNN
-F 1 "+3V3" H 25965 3673 50  0000 C CNN
-F 2 "" H 25950 3500 50  0001 C CNN
-F 3 "" H 25950 3500 50  0001 C CNN
-	1    25950 3500
+P 24450 3500
+F 0 "#PWR?" H 24450 3350 50  0001 C CNN
+F 1 "+3V3" H 24465 3673 50  0000 C CNN
+F 2 "" H 24450 3500 50  0001 C CNN
+F 3 "" H 24450 3500 50  0001 C CNN
+	1    24450 3500
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -666,12 +535,12 @@ Wire Wire Line
 $Comp
 L power:+3V3 #PWR?
 U 1 1 6215C203
-P 31450 3500
-F 0 "#PWR?" H 31450 3350 50  0001 C CNN
-F 1 "+3V3" H 31465 3673 50  0000 C CNN
-F 2 "" H 31450 3500 50  0001 C CNN
-F 3 "" H 31450 3500 50  0001 C CNN
-	1    31450 3500
+P 29950 3500
+F 0 "#PWR?" H 29950 3350 50  0001 C CNN
+F 1 "+3V3" H 29965 3673 50  0000 C CNN
+F 2 "" H 29950 3500 50  0001 C CNN
+F 3 "" H 29950 3500 50  0001 C CNN
+	1    29950 3500
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -743,12 +612,9 @@ Wire Wire Line
 Wire Wire Line
 	20800 2400 20400 2400
 Wire Wire Line
-	25000 8450 25000 8550
-Wire Wire Line
 	23800 6600 24500 6600
 Text Label 23800 6600 0    50   ~ 0
 header_done
-Connection ~ 24350 7700
 Wire Wire Line
 	24350 8000 24350 7700
 Wire Wire Line
@@ -790,40 +656,9 @@ n_reset
 Wire Wire Line
 	24500 7800 23750 7800
 Wire Wire Line
-	25000 6200 25000 6250
-Connection ~ 25000 6200
-Wire Wire Line
-	24350 6200 25000 6200
-Wire Wire Line
-	24350 7700 24350 6200
-Wire Wire Line
 	24500 7700 24350 7700
 Wire Wire Line
 	23750 8100 24500 8100
-Wire Wire Line
-	25000 6150 25000 6200
-$Comp
-L power:+3V3 #PWR?
-U 1 1 6186B966
-P 25000 6150
-F 0 "#PWR?" H 25000 6000 50  0001 C CNN
-F 1 "+3V3" H 25015 6323 50  0000 C CNN
-F 2 "" H 25000 6150 50  0001 C CNN
-F 3 "" H 25000 6150 50  0001 C CNN
-	1    25000 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6186B53E
-P 25000 8550
-F 0 "#PWR?" H 25000 8300 50  0001 C CNN
-F 1 "GND" H 25005 8377 50  0000 C CNN
-F 2 "" H 25000 8550 50  0001 C CNN
-F 3 "" H 25000 8550 50  0001 C CNN
-	1    25000 8550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	25500 6800 26000 6800
 Wire Wire Line
@@ -1445,17 +1280,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 7350 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L My_74xx:74HC40103 U?
-U 1 1 60DAE7BF
-P 25000 7250
-F 0 "U?" H 24600 6100 50  0000 L CNN
-F 1 "74HC40103" H 25100 6100 50  0000 L CNN
-F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 25050 5350 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/cd74hc40103.pdf" H 25050 5350 50  0001 C CNN
-	1    25000 7250
-	1    0    0    -1  
-$EndComp
-$Comp
 L 74xx:74LS574 U?
 U 1 1 61F02F37
 P 29550 2200
@@ -1541,17 +1365,6 @@ F 1 "74LS10" H 16400 3334 50  0000 C CNN
 F 2 "" H 16400 3100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74LS10" H 16400 3100 50  0001 C CNN
 	2    16400 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS32 U?
-U 1 1 60B605D7
-P 21450 6350
-F 0 "U?" H 21400 6550 50  0000 C CNN
-F 1 "74LS32" H 21400 6150 50  0000 C CNN
-F 2 "" H 21450 6350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 21450 6350 50  0001 C CNN
-	1    21450 6350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1755,25 +1568,21 @@ Connection ~ 21600 3700
 Wire Wire Line
 	20600 3800 21400 3800
 Connection ~ 21400 3800
-Connection ~ 31450 3600
 Wire Wire Line
-	29000 3450 29550 3450
-Text Label 29000 3450 0    50   ~ 0
+	28600 3550 29550 3550
+Text Label 28600 3550 0    50   ~ 0
 playback_cntdown_clk
 $Comp
 L power:+3V3 #PWR?
 U 1 1 61F02F1D
-P 28700 3500
-F 0 "#PWR?" H 28700 3350 50  0001 C CNN
-F 1 "+3V3" H 28715 3673 50  0000 C CNN
-F 2 "" H 28700 3500 50  0001 C CNN
-F 3 "" H 28700 3500 50  0001 C CNN
-	1    28700 3500
+P 27200 3500
+F 0 "#PWR?" H 27200 3350 50  0001 C CNN
+F 1 "+3V3" H 27215 3673 50  0000 C CNN
+F 2 "" H 27200 3500 50  0001 C CNN
+F 3 "" H 27200 3500 50  0001 C CNN
+	1    27200 3500
 	-1   0    0    -1  
 $EndComp
-Connection ~ 28700 3600
-Connection ~ 25950 3600
-Connection ~ 23200 3600
 Wire Wire Line
 	21300 4000 23400 4000
 Wire Wire Line
@@ -1931,8 +1740,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/cd74hc40103.pdf" H 23600 9600 50  0001 C 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	24550 11500 24600 11500
-Wire Wire Line
 	22800 10750 22800 11000
 Wire Wire Line
 	28300 10750 25550 10750
@@ -1942,55 +1749,6 @@ Wire Wire Line
 	29500 12000 29500 12150
 Wire Wire Line
 	26750 12000 26750 12150
-Wire Wire Line
-	27750 11500 27850 11500
-Wire Wire Line
-	25100 11500 25000 11500
-Wire Wire Line
-	30050 11500 30100 11500
-Wire Wire Line
-	27350 11500 27300 11500
-Wire Wire Line
-	22350 11500 22250 11500
-$Comp
-L power:GND #PWR?
-U 1 1 62DDB464
-P 22250 11800
-F 0 "#PWR?" H 22250 11550 50  0001 C CNN
-F 1 "GND" H 22255 11627 50  0000 C CNN
-F 2 "" H 22250 11800 50  0001 C CNN
-F 3 "" H 22250 11800 50  0001 C CNN
-	1    22250 11800
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	22250 11500 22250 11800
-$Comp
-L power:GND #PWR?
-U 1 1 62DDB46F
-P 25000 11800
-F 0 "#PWR?" H 25000 11550 50  0001 C CNN
-F 1 "GND" H 25005 11627 50  0000 C CNN
-F 2 "" H 25000 11800 50  0001 C CNN
-F 3 "" H 25000 11800 50  0001 C CNN
-	1    25000 11800
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	25000 11500 25000 11800
-Wire Wire Line
-	27750 11500 27750 11800
-$Comp
-L power:GND #PWR?
-U 1 1 62DDB47B
-P 27750 11800
-F 0 "#PWR?" H 27750 11550 50  0001 C CNN
-F 1 "GND" H 27755 11627 50  0000 C CNN
-F 2 "" H 27750 11800 50  0001 C CNN
-F 3 "" H 27750 11800 50  0001 C CNN
-	1    27750 11800
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	25550 10750 22800 10750
 Wire Wire Line
@@ -2009,40 +1767,7 @@ Wire Wire Line
 	26950 11000 26950 10850
 Wire Wire Line
 	29700 11000 29700 10850
-$Comp
-L power:+3V3 #PWR?
-U 1 1 62DDBA92
-P 24600 11300
-F 0 "#PWR?" H 24600 11150 50  0001 C CNN
-F 1 "+3V3" H 24615 11473 50  0000 C CNN
-F 2 "" H 24600 11300 50  0001 C CNN
-F 3 "" H 24600 11300 50  0001 C CNN
-	1    24600 11300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 62DDBAB4
-P 30100 11300
-F 0 "#PWR?" H 30100 11150 50  0001 C CNN
-F 1 "+3V3" H 30115 11473 50  0000 C CNN
-F 2 "" H 30100 11300 50  0001 C CNN
-F 3 "" H 30100 11300 50  0001 C CNN
-	1    30100 11300
-	-1   0    0    -1  
-$EndComp
 Connection ~ 25550 10750
-$Comp
-L power:+3V3 #PWR?
-U 1 1 62DDC0FF
-P 27350 11300
-F 0 "#PWR?" H 27350 11150 50  0001 C CNN
-F 1 "+3V3" H 27365 11473 50  0000 C CNN
-F 2 "" H 27350 11300 50  0001 C CNN
-F 3 "" H 27350 11300 50  0001 C CNN
-	1    27350 11300
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	22700 10950 24800 10950
 Wire Wire Line
@@ -2211,17 +1936,6 @@ Wire Wire Line
 	14550 5050 14900 5050
 Text Label 14550 5050 0    50   ~ 0
 sec_clk
-$Comp
-L 74xx:74LS32 U?
-U 1 1 658DBF1A
-P 15400 6150
-F 0 "U?" H 15350 6350 50  0000 C CNN
-F 1 "74LS32" H 15350 5950 50  0000 C CNN
-F 2 "" H 15400 6150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 15400 6150 50  0001 C CNN
-	1    15400 6150
-	0    1    -1   0   
-$EndComp
 Text Label 15900 6650 2    50   ~ 0
 reset
 Text Label 17000 5500 0    39   ~ 0
@@ -2904,8 +2618,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/cd74hc40103.pdf" H 35450 1700 50  0001 C 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	36400 3600 36450 3600
-Wire Wire Line
 	34650 2850 34650 3100
 Wire Wire Line
 	40150 2850 37400 2850
@@ -2915,55 +2627,6 @@ Wire Wire Line
 	41350 4100 41350 4250
 Wire Wire Line
 	38600 4100 38600 4250
-Wire Wire Line
-	39600 3600 39700 3600
-Wire Wire Line
-	36950 3600 36850 3600
-Wire Wire Line
-	41900 3600 41950 3600
-Wire Wire Line
-	39200 3600 39150 3600
-Wire Wire Line
-	34200 3600 34100 3600
-$Comp
-L power:GND #PWR?
-U 1 1 60F45904
-P 34100 3900
-F 0 "#PWR?" H 34100 3650 50  0001 C CNN
-F 1 "GND" H 34105 3727 50  0000 C CNN
-F 2 "" H 34100 3900 50  0001 C CNN
-F 3 "" H 34100 3900 50  0001 C CNN
-	1    34100 3900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	34100 3600 34100 3900
-$Comp
-L power:GND #PWR?
-U 1 1 60F4590F
-P 36850 3900
-F 0 "#PWR?" H 36850 3650 50  0001 C CNN
-F 1 "GND" H 36855 3727 50  0000 C CNN
-F 2 "" H 36850 3900 50  0001 C CNN
-F 3 "" H 36850 3900 50  0001 C CNN
-	1    36850 3900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	36850 3600 36850 3900
-Wire Wire Line
-	39600 3600 39600 3900
-$Comp
-L power:GND #PWR?
-U 1 1 60F4591B
-P 39600 3900
-F 0 "#PWR?" H 39600 3650 50  0001 C CNN
-F 1 "GND" H 39605 3727 50  0000 C CNN
-F 2 "" H 39600 3900 50  0001 C CNN
-F 3 "" H 39600 3900 50  0001 C CNN
-	1    39600 3900
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	37400 2850 34650 2850
 Wire Wire Line
@@ -2982,17 +2645,6 @@ Wire Wire Line
 	41550 3100 41550 2950
 $Comp
 L power:+3V3 #PWR?
-U 1 1 60F45C72
-P 36450 3400
-F 0 "#PWR?" H 36450 3250 50  0001 C CNN
-F 1 "+3V3" H 36465 3573 50  0000 C CNN
-F 2 "" H 36450 3400 50  0001 C CNN
-F 3 "" H 36450 3400 50  0001 C CNN
-	1    36450 3400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR?
 U 1 1 60F45C7C
 P 41950 2500
 F 0 "#PWR?" H 41950 2350 50  0001 C CNN
@@ -3003,17 +2655,6 @@ F 3 "" H 41950 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Connection ~ 37400 2850
-$Comp
-L power:+3V3 #PWR?
-U 1 1 60F45C88
-P 39200 3400
-F 0 "#PWR?" H 39200 3250 50  0001 C CNN
-F 1 "+3V3" H 39215 3573 50  0000 C CNN
-F 2 "" H 39200 3400 50  0001 C CNN
-F 3 "" H 39200 3400 50  0001 C CNN
-	1    39200 3400
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	34550 3050 36650 3050
 Wire Wire Line
@@ -3798,8 +3439,6 @@ n_reset
 Wire Wire Line
 	22150 10750 22800 10750
 Connection ~ 22800 10750
-Wire Wire Line
-	24600 11300 24600 11500
 Text Label 22150 10550 0    50   ~ 0
 header_done
 Wire Wire Line
@@ -3809,15 +3448,7 @@ Wire Wire Line
 Connection ~ 23000 10550
 Connection ~ 25750 10550
 Wire Wire Line
-	27350 11300 27350 11500
-Wire Wire Line
 	25750 10550 28500 10550
-Wire Wire Line
-	30100 11300 30100 11500
-Wire Wire Line
-	36450 3400 36450 3600
-Wire Wire Line
-	39200 3400 39200 3600
 Wire Wire Line
 	41950 2500 41950 2650
 Wire Wire Line
@@ -3833,9 +3464,6 @@ header_done
 Wire Wire Line
 	40350 2650 41950 2650
 Connection ~ 40350 2650
-Connection ~ 41950 2650
-Wire Wire Line
-	41950 2650 41950 3600
 Text Label 35350 4350 2    50   ~ 0
 n_header_done
 Wire Wire Line
@@ -3971,18 +3599,11 @@ F 3 "" H 34450 5050 50  0001 C CNN
 	1    34450 5050
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	35100 5250 35100 5200
-Wire Wire Line
-	35100 5200 34450 5200
 Connection ~ 34450 5200
 Wire Wire Line
 	34450 5200 34450 5050
 Wire Wire Line
 	37950 5500 37950 5200
-Wire Wire Line
-	37950 5200 35100 5200
-Connection ~ 35100 5200
 $Comp
 L power:GND #PWR?
 U 1 1 6457621D
@@ -3995,17 +3616,9 @@ F 3 "" H 35900 7750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	35100 7450 35100 7650
-Wire Wire Line
-	35900 7650 35900 7750
-Wire Wire Line
 	37950 7200 37950 6900
 Wire Wire Line
 	35900 7200 37950 7200
-Wire Wire Line
-	35100 7650 35900 7650
-Wire Wire Line
-	35900 7650 35900 7200
 Wire Wire Line
 	35700 5800 35600 5800
 Wire Wire Line
@@ -4037,7 +3650,6 @@ Wire Wire Line
 	38850 6950 38850 6600
 Wire Wire Line
 	36700 6950 38850 6950
-Connection ~ 35900 7650
 $Comp
 L 74xx:74LS27 U?
 U 1 1 65DD49BE
@@ -4069,4 +3681,1354 @@ Wire Wire Line
 Connection ~ 33900 4450
 Wire Wire Line
 	33900 4450 33900 5600
+$Comp
+L 74xx:74LS32 U?
+U 1 1 658DBF1A
+P 15400 6150
+F 0 "U?" H 15350 6350 50  0000 C CNN
+F 1 "74LS32" H 15350 5950 50  0000 C CNN
+F 2 "" H 15400 6150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 15400 6150 50  0001 C CNN
+	1    15400 6150
+	0    1    -1   0   
+$EndComp
+$Comp
+L 74xx:74LS32 U?
+U 1 1 60B605D7
+P 21450 6350
+F 0 "U?" H 21400 6550 50  0000 C CNN
+F 1 "74LS32" H 21400 6150 50  0000 C CNN
+F 2 "" H 21450 6350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 21450 6350 50  0001 C CNN
+	1    21450 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 60BDB6F9
+P 20850 4850
+F 0 "#PWR013" H 20850 4600 50  0001 C CNN
+F 1 "GND" H 20855 4677 50  0000 C CNN
+F 2 "" H 20850 4850 50  0001 C CNN
+F 3 "" H 20850 4850 50  0001 C CNN
+	1    20850 4850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	22800 3900 20850 3900
+$Comp
+L My_74xx:74HC40103 U5
+U 1 1 60BDB6DC
+P 22150 4550
+F 0 "U5" V 22600 3450 50  0000 L CNN
+F 1 "74HC40103" V 22600 3700 50  0000 L CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 22200 2650 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd74hc40103.pdf" H 22200 2650 50  0001 C CNN
+	1    22150 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	20850 3900 20850 4850
+Connection ~ 22800 3900
+Wire Wire Line
+	22800 3900 25550 3900
+Connection ~ 25550 3900
+Connection ~ 28300 3900
+Wire Wire Line
+	28300 3900 31050 3900
+Wire Wire Line
+	25550 3900 28300 3900
+Wire Wire Line
+	24450 3500 24450 4050
+Wire Wire Line
+	21700 3500 21700 4050
+Wire Wire Line
+	27200 3500 27200 4050
+Wire Wire Line
+	29950 3500 29950 4050
+$Comp
+L My_74xx:74HC40103 U?
+U 1 1 60DAE7BF
+P 25000 7250
+F 0 "U?" H 24600 6100 50  0000 L CNN
+F 1 "74HC40103" H 25100 6100 50  0000 L CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 25050 5350 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd74hc40103.pdf" H 25050 5350 50  0001 C CNN
+	1    25000 7250
+	1    0    0    -1  
+$EndComp
+Connection ~ 24350 7700
+Wire Wire Line
+	24350 7700 24350 6200
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6186B966
+P 24350 6200
+F 0 "#PWR?" H 24350 6050 50  0001 C CNN
+F 1 "+3V3" H 24365 6373 50  0000 C CNN
+F 2 "" H 24350 6200 50  0001 C CNN
+F 3 "" H 24350 6200 50  0001 C CNN
+	1    24350 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	34450 5200 37950 5200
+Wire Wire Line
+	35900 7200 35900 7750
+Text Label 21600 29100 0    50   ~ 0
+display_bit7
+Text Label 21600 25550 0    50   ~ 0
+display_bit6
+Wire Wire Line
+	18200 29750 18200 29550
+Wire Wire Line
+	18150 29750 18200 29750
+Wire Wire Line
+	18200 29550 19850 29550
+Wire Wire Line
+	18200 28000 18200 27800
+Wire Wire Line
+	18150 28000 18200 28000
+Wire Wire Line
+	18200 27800 19950 27800
+NoConn ~ 19750 29850
+NoConn ~ 18150 29850
+NoConn ~ 18150 28100
+NoConn ~ 19750 28100
+Wire Wire Line
+	19950 29150 20450 29150
+Wire Wire Line
+	19950 29750 19950 29150
+Wire Wire Line
+	19750 29750 19950 29750
+Wire Wire Line
+	19850 29050 20450 29050
+Wire Wire Line
+	19850 29550 19850 29050
+Wire Wire Line
+	19850 28950 20450 28950
+Wire Wire Line
+	19850 28000 19850 28950
+Wire Wire Line
+	19750 28000 19850 28000
+Wire Wire Line
+	19950 28850 20450 28850
+Wire Wire Line
+	19950 27800 19950 28850
+Text Label 18700 30350 2    50   ~ 0
+char30_bit7
+Text Label 18700 30150 2    50   ~ 0
+char28_bit7
+Text Label 17100 30450 2    50   ~ 0
+char23_bit7
+Text Label 17100 28200 2    50   ~ 0
+char2_bit7
+Text Label 18700 30450 2    50   ~ 0
+char31_bit7
+Text Label 18700 30250 2    50   ~ 0
+char29_bit7
+Text Label 18700 30050 2    50   ~ 0
+char27_bit7
+Text Label 18700 29950 2    50   ~ 0
+char26_bit7
+Text Label 18700 29850 2    50   ~ 0
+char25_bit7
+Text Label 18700 29750 2    50   ~ 0
+char24_bit7
+Text Label 17100 30350 2    50   ~ 0
+char22_bit7
+Text Label 17100 30250 2    50   ~ 0
+char21_bit7
+Text Label 17100 30150 2    50   ~ 0
+char20_bit7
+Text Label 17100 30050 2    50   ~ 0
+char19_bit7
+Text Label 17100 29950 2    50   ~ 0
+char18_bit7
+Text Label 17100 29850 2    50   ~ 0
+char17_bit7
+Text Label 17100 29750 2    50   ~ 0
+char16_bit7
+Text Label 18700 28700 2    50   ~ 0
+char15_bit7
+Text Label 18700 28600 2    50   ~ 0
+char14_bit7
+Text Label 18700 28500 2    50   ~ 0
+char13_bit7
+Text Label 18700 28400 2    50   ~ 0
+char12_bit7
+Text Label 18700 28300 2    50   ~ 0
+char11_bit7
+Text Label 18700 28200 2    50   ~ 0
+char10_bit7
+Text Label 18700 28100 2    50   ~ 0
+char9_bit7
+Text Label 18700 28000 2    50   ~ 0
+char8_bit7
+Text Label 17100 28700 2    50   ~ 0
+char7_bit7
+Text Label 17100 28600 2    50   ~ 0
+char6_bit7
+Text Label 17100 28500 2    50   ~ 0
+char5_bit7
+Text Label 17100 28400 2    50   ~ 0
+char4_bit7
+Text Label 17100 28300 2    50   ~ 0
+char3_bit7
+Text Label 17100 28100 2    50   ~ 0
+char1_bit7
+Text Label 17100 28000 2    50   ~ 0
+char0_bit7
+$Comp
+L My_74xx:74HC153 U?
+U 2 1 63F480E6
+P 21050 29100
+F 0 "U?" H 21050 29500 50  0000 C CNN
+F 1 "74HC153" H 21050 28700 50  0000 C CNN
+F 2 "" H 21050 29100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809200412_Nexperia-74HC153D-653_C53334.pdf" H 21050 29100 50  0001 C CNN
+	2    21050 29100
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F480DC
+P 19300 30350
+F 0 "U?" H 18950 29500 50  0000 C CNN
+F 1 "74HC151" H 19400 29500 50  0000 C CNN
+F 2 "" H 19300 30350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 19300 30350 50  0001 C CNN
+	1    19300 30350
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F480D2
+P 19300 28600
+F 0 "U?" H 18950 27750 50  0000 C CNN
+F 1 "74HC151" H 19400 27750 50  0000 C CNN
+F 2 "" H 19300 28600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 19300 28600 50  0001 C CNN
+	1    19300 28600
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F480C8
+P 17700 30350
+F 0 "U?" H 17350 29500 50  0000 C CNN
+F 1 "74HC151" H 17800 29500 50  0000 C CNN
+F 2 "" H 17700 30350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 17700 30350 50  0001 C CNN
+	1    17700 30350
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F480BE
+P 17700 28600
+F 0 "U?" H 17350 27750 50  0000 C CNN
+F 1 "74HC151" H 17800 27750 50  0000 C CNN
+F 2 "" H 17700 28600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 17700 28600 50  0001 C CNN
+	1    17700 28600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	18200 26200 18200 26000
+Wire Wire Line
+	18150 26200 18200 26200
+Wire Wire Line
+	18200 26000 19850 26000
+Wire Wire Line
+	18200 24450 18200 24250
+Wire Wire Line
+	18150 24450 18200 24450
+Wire Wire Line
+	18200 24250 19950 24250
+NoConn ~ 19750 26300
+NoConn ~ 18150 26300
+NoConn ~ 18150 24550
+NoConn ~ 19750 24550
+Wire Wire Line
+	19950 25600 20450 25600
+Wire Wire Line
+	19950 26200 19950 25600
+Wire Wire Line
+	19750 26200 19950 26200
+Wire Wire Line
+	19850 25500 20450 25500
+Wire Wire Line
+	19850 26000 19850 25500
+Wire Wire Line
+	19850 25400 20450 25400
+Wire Wire Line
+	19850 24450 19850 25400
+Wire Wire Line
+	19750 24450 19850 24450
+Wire Wire Line
+	19950 25300 20450 25300
+Wire Wire Line
+	19950 24250 19950 25300
+Text Label 18700 26800 2    50   ~ 0
+char30_bit6
+Text Label 18700 26600 2    50   ~ 0
+char28_bit6
+Text Label 17100 26900 2    50   ~ 0
+char23_bit6
+Text Label 17100 24650 2    50   ~ 0
+char2_bit6
+Text Label 18700 26900 2    50   ~ 0
+char31_bit6
+Text Label 18700 26700 2    50   ~ 0
+char29_bit6
+Text Label 18700 26500 2    50   ~ 0
+char27_bit6
+Text Label 18700 26400 2    50   ~ 0
+char26_bit6
+Text Label 18700 26300 2    50   ~ 0
+char25_bit6
+Text Label 18700 26200 2    50   ~ 0
+char24_bit6
+Text Label 17100 26800 2    50   ~ 0
+char22_bit6
+Text Label 17100 26700 2    50   ~ 0
+char21_bit6
+Text Label 17100 26600 2    50   ~ 0
+char20_bit6
+Text Label 17100 26500 2    50   ~ 0
+char19_bit6
+Text Label 17100 26400 2    50   ~ 0
+char18_bit6
+Text Label 17100 26300 2    50   ~ 0
+char17_bit6
+Text Label 17100 26200 2    50   ~ 0
+char16_bit6
+Text Label 18700 25150 2    50   ~ 0
+char15_bit6
+Text Label 18700 25050 2    50   ~ 0
+char14_bit6
+Text Label 18700 24950 2    50   ~ 0
+char13_bit6
+Text Label 18700 24850 2    50   ~ 0
+char12_bit6
+Text Label 18700 24750 2    50   ~ 0
+char11_bit6
+Text Label 18700 24650 2    50   ~ 0
+char10_bit6
+Text Label 18700 24550 2    50   ~ 0
+char9_bit6
+Text Label 18700 24450 2    50   ~ 0
+char8_bit6
+Text Label 17100 25150 2    50   ~ 0
+char7_bit6
+Text Label 17100 25050 2    50   ~ 0
+char6_bit6
+Text Label 17100 24950 2    50   ~ 0
+char5_bit6
+Text Label 17100 24850 2    50   ~ 0
+char4_bit6
+Text Label 17100 24750 2    50   ~ 0
+char3_bit6
+Text Label 17100 24550 2    50   ~ 0
+char1_bit6
+Text Label 17100 24450 2    50   ~ 0
+char0_bit6
+$Comp
+L My_74xx:74HC153 U?
+U 1 1 63F47AA6
+P 21050 25550
+F 0 "U?" H 21050 25950 50  0000 C CNN
+F 1 "74HC153" H 21050 25150 50  0000 C CNN
+F 2 "" H 21050 25550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809200412_Nexperia-74HC153D-653_C53334.pdf" H 21050 25550 50  0001 C CNN
+	1    21050 25550
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F47A9C
+P 19300 26800
+F 0 "U?" H 18950 25950 50  0000 C CNN
+F 1 "74HC151" H 19400 25950 50  0000 C CNN
+F 2 "" H 19300 26800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 19300 26800 50  0001 C CNN
+	1    19300 26800
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F47A92
+P 19300 25050
+F 0 "U?" H 18950 24200 50  0000 C CNN
+F 1 "74HC151" H 19400 24200 50  0000 C CNN
+F 2 "" H 19300 25050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 19300 25050 50  0001 C CNN
+	1    19300 25050
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F47A88
+P 17700 26800
+F 0 "U?" H 17350 25950 50  0000 C CNN
+F 1 "74HC151" H 17800 25950 50  0000 C CNN
+F 2 "" H 17700 26800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 17700 26800 50  0001 C CNN
+	1    17700 26800
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F47A7E
+P 17700 25050
+F 0 "U?" H 17350 24200 50  0000 C CNN
+F 1 "74HC151" H 17800 24200 50  0000 C CNN
+F 2 "" H 17700 25050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 17700 25050 50  0001 C CNN
+	1    17700 25050
+	1    0    0    -1  
+$EndComp
+Text Label 16000 29100 0    50   ~ 0
+display_bit5
+Text Label 16000 25550 0    50   ~ 0
+display_bit4
+Wire Wire Line
+	12600 29750 12600 29550
+Wire Wire Line
+	12550 29750 12600 29750
+Wire Wire Line
+	12600 29550 14250 29550
+Wire Wire Line
+	12600 28000 12600 27800
+Wire Wire Line
+	12550 28000 12600 28000
+Wire Wire Line
+	12600 27800 14350 27800
+NoConn ~ 14150 29850
+NoConn ~ 12550 29850
+NoConn ~ 12550 28100
+NoConn ~ 14150 28100
+Wire Wire Line
+	14350 29150 14850 29150
+Wire Wire Line
+	14350 29750 14350 29150
+Wire Wire Line
+	14150 29750 14350 29750
+Wire Wire Line
+	14250 29050 14850 29050
+Wire Wire Line
+	14250 29550 14250 29050
+Wire Wire Line
+	14250 28950 14850 28950
+Wire Wire Line
+	14250 28000 14250 28950
+Wire Wire Line
+	14150 28000 14250 28000
+Wire Wire Line
+	14350 28850 14850 28850
+Wire Wire Line
+	14350 27800 14350 28850
+Text Label 13100 30350 2    50   ~ 0
+char30_bit5
+Text Label 13100 30150 2    50   ~ 0
+char28_bit5
+Text Label 11500 30450 2    50   ~ 0
+char23_bit5
+Text Label 11500 28200 2    50   ~ 0
+char2_bit5
+Text Label 13100 30450 2    50   ~ 0
+char31_bit5
+Text Label 13100 30250 2    50   ~ 0
+char29_bit5
+Text Label 13100 30050 2    50   ~ 0
+char27_bit5
+Text Label 13100 29950 2    50   ~ 0
+char26_bit5
+Text Label 13100 29850 2    50   ~ 0
+char25_bit5
+Text Label 13100 29750 2    50   ~ 0
+char24_bit5
+Text Label 11500 30350 2    50   ~ 0
+char22_bit5
+Text Label 11500 30250 2    50   ~ 0
+char21_bit5
+Text Label 11500 30150 2    50   ~ 0
+char20_bit5
+Text Label 11500 30050 2    50   ~ 0
+char19_bit5
+Text Label 11500 29950 2    50   ~ 0
+char18_bit5
+Text Label 11500 29850 2    50   ~ 0
+char17_bit5
+Text Label 11500 29750 2    50   ~ 0
+char16_bit5
+Text Label 13100 28700 2    50   ~ 0
+char15_bit5
+Text Label 13100 28600 2    50   ~ 0
+char14_bit5
+Text Label 13100 28500 2    50   ~ 0
+char13_bit5
+Text Label 13100 28400 2    50   ~ 0
+char12_bit5
+Text Label 13100 28300 2    50   ~ 0
+char11_bit5
+Text Label 13100 28200 2    50   ~ 0
+char10_bit5
+Text Label 13100 28100 2    50   ~ 0
+char9_bit5
+Text Label 13100 28000 2    50   ~ 0
+char8_bit5
+Text Label 11500 28700 2    50   ~ 0
+char7_bit5
+Text Label 11500 28600 2    50   ~ 0
+char6_bit5
+Text Label 11500 28500 2    50   ~ 0
+char5_bit5
+Text Label 11500 28400 2    50   ~ 0
+char4_bit5
+Text Label 11500 28300 2    50   ~ 0
+char3_bit5
+Text Label 11500 28100 2    50   ~ 0
+char1_bit5
+Text Label 11500 28000 2    50   ~ 0
+char0_bit5
+$Comp
+L My_74xx:74HC153 U?
+U 2 1 63F4753A
+P 15450 29100
+F 0 "U?" H 15450 29500 50  0000 C CNN
+F 1 "74HC153" H 15450 28700 50  0000 C CNN
+F 2 "" H 15450 29100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809200412_Nexperia-74HC153D-653_C53334.pdf" H 15450 29100 50  0001 C CNN
+	2    15450 29100
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F47530
+P 13700 30350
+F 0 "U?" H 13350 29500 50  0000 C CNN
+F 1 "74HC151" H 13800 29500 50  0000 C CNN
+F 2 "" H 13700 30350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 13700 30350 50  0001 C CNN
+	1    13700 30350
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F47526
+P 13700 28600
+F 0 "U?" H 13350 27750 50  0000 C CNN
+F 1 "74HC151" H 13800 27750 50  0000 C CNN
+F 2 "" H 13700 28600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 13700 28600 50  0001 C CNN
+	1    13700 28600
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F4751C
+P 12100 30350
+F 0 "U?" H 11750 29500 50  0000 C CNN
+F 1 "74HC151" H 12200 29500 50  0000 C CNN
+F 2 "" H 12100 30350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 12100 30350 50  0001 C CNN
+	1    12100 30350
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F470BA
+P 12100 28600
+F 0 "U?" H 11750 27750 50  0000 C CNN
+F 1 "74HC151" H 12200 27750 50  0000 C CNN
+F 2 "" H 12100 28600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 12100 28600 50  0001 C CNN
+	1    12100 28600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12600 26200 12600 26000
+Wire Wire Line
+	12550 26200 12600 26200
+Wire Wire Line
+	12600 26000 14250 26000
+Wire Wire Line
+	12600 24450 12600 24250
+Wire Wire Line
+	12550 24450 12600 24450
+Wire Wire Line
+	12600 24250 14350 24250
+NoConn ~ 14150 26300
+NoConn ~ 12550 26300
+NoConn ~ 12550 24550
+NoConn ~ 14150 24550
+Wire Wire Line
+	14350 25600 14850 25600
+Wire Wire Line
+	14350 26200 14350 25600
+Wire Wire Line
+	14150 26200 14350 26200
+Wire Wire Line
+	14250 25500 14850 25500
+Wire Wire Line
+	14250 26000 14250 25500
+Wire Wire Line
+	14250 25400 14850 25400
+Wire Wire Line
+	14250 24450 14250 25400
+Wire Wire Line
+	14150 24450 14250 24450
+Wire Wire Line
+	14350 25300 14850 25300
+Wire Wire Line
+	14350 24250 14350 25300
+Text Label 13100 26800 2    50   ~ 0
+char30_bit4
+Text Label 13100 26600 2    50   ~ 0
+char28_bit4
+Text Label 11500 26900 2    50   ~ 0
+char23_bit4
+Text Label 11500 24650 2    50   ~ 0
+char2_bit4
+Text Label 13100 26900 2    50   ~ 0
+char31_bit4
+Text Label 13100 26700 2    50   ~ 0
+char29_bit4
+Text Label 13100 26500 2    50   ~ 0
+char27_bit4
+Text Label 13100 26400 2    50   ~ 0
+char26_bit4
+Text Label 13100 26300 2    50   ~ 0
+char25_bit4
+Text Label 13100 26200 2    50   ~ 0
+char24_bit4
+Text Label 11500 26800 2    50   ~ 0
+char22_bit4
+Text Label 11500 26700 2    50   ~ 0
+char21_bit4
+Text Label 11500 26600 2    50   ~ 0
+char20_bit4
+Text Label 11500 26500 2    50   ~ 0
+char19_bit4
+Text Label 11500 26400 2    50   ~ 0
+char18_bit4
+Text Label 11500 26300 2    50   ~ 0
+char17_bit4
+Text Label 11500 26200 2    50   ~ 0
+char16_bit4
+Text Label 13100 25150 2    50   ~ 0
+char15_bit4
+Text Label 13100 25050 2    50   ~ 0
+char14_bit4
+Text Label 13100 24950 2    50   ~ 0
+char13_bit4
+Text Label 13100 24850 2    50   ~ 0
+char12_bit4
+Text Label 13100 24750 2    50   ~ 0
+char11_bit4
+Text Label 13100 24650 2    50   ~ 0
+char10_bit4
+Text Label 13100 24550 2    50   ~ 0
+char9_bit4
+Text Label 13100 24450 2    50   ~ 0
+char8_bit4
+Text Label 11500 25150 2    50   ~ 0
+char7_bit4
+Text Label 11500 25050 2    50   ~ 0
+char6_bit4
+Text Label 11500 24950 2    50   ~ 0
+char5_bit4
+Text Label 11500 24850 2    50   ~ 0
+char4_bit4
+Text Label 11500 24750 2    50   ~ 0
+char3_bit4
+Text Label 11500 24550 2    50   ~ 0
+char1_bit4
+Text Label 11500 24450 2    50   ~ 0
+char0_bit4
+$Comp
+L My_74xx:74HC153 U?
+U 1 1 63F4707C
+P 15450 25550
+F 0 "U?" H 15450 25950 50  0000 C CNN
+F 1 "74HC153" H 15450 25150 50  0000 C CNN
+F 2 "" H 15450 25550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809200412_Nexperia-74HC153D-653_C53334.pdf" H 15450 25550 50  0001 C CNN
+	1    15450 25550
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F47072
+P 13700 26800
+F 0 "U?" H 13350 25950 50  0000 C CNN
+F 1 "74HC151" H 13800 25950 50  0000 C CNN
+F 2 "" H 13700 26800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 13700 26800 50  0001 C CNN
+	1    13700 26800
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F47068
+P 13700 25050
+F 0 "U?" H 13350 24200 50  0000 C CNN
+F 1 "74HC151" H 13800 24200 50  0000 C CNN
+F 2 "" H 13700 25050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 13700 25050 50  0001 C CNN
+	1    13700 25050
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F4705E
+P 12100 26800
+F 0 "U?" H 11750 25950 50  0000 C CNN
+F 1 "74HC151" H 12200 25950 50  0000 C CNN
+F 2 "" H 12100 26800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 12100 26800 50  0001 C CNN
+	1    12100 26800
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63F46AAA
+P 12100 25050
+F 0 "U?" H 11750 24200 50  0000 C CNN
+F 1 "74HC151" H 12200 24200 50  0000 C CNN
+F 2 "" H 12100 25050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 12100 25050 50  0001 C CNN
+	1    12100 25050
+	1    0    0    -1  
+$EndComp
+Text Label 10400 29100 0    50   ~ 0
+display_bit3
+Text Label 10400 25550 0    50   ~ 0
+display_bit2
+Wire Wire Line
+	7000 29750 7000 29550
+Wire Wire Line
+	6950 29750 7000 29750
+Wire Wire Line
+	7000 29550 8650 29550
+Wire Wire Line
+	7000 28000 7000 27800
+Wire Wire Line
+	6950 28000 7000 28000
+Wire Wire Line
+	7000 27800 8750 27800
+NoConn ~ 8550 29850
+NoConn ~ 6950 29850
+NoConn ~ 6950 28100
+NoConn ~ 8550 28100
+Wire Wire Line
+	8750 29150 9250 29150
+Wire Wire Line
+	8750 29750 8750 29150
+Wire Wire Line
+	8550 29750 8750 29750
+Wire Wire Line
+	8650 29050 9250 29050
+Wire Wire Line
+	8650 29550 8650 29050
+Wire Wire Line
+	8650 28950 9250 28950
+Wire Wire Line
+	8650 28000 8650 28950
+Wire Wire Line
+	8550 28000 8650 28000
+Wire Wire Line
+	8750 28850 9250 28850
+Wire Wire Line
+	8750 27800 8750 28850
+Text Label 7500 30350 2    50   ~ 0
+char30_bit3
+Text Label 7500 30150 2    50   ~ 0
+char28_bit3
+Text Label 5900 30450 2    50   ~ 0
+char23_bit3
+Text Label 5900 28200 2    50   ~ 0
+char2_bit3
+Text Label 7500 30450 2    50   ~ 0
+char31_bit3
+Text Label 7500 30250 2    50   ~ 0
+char29_bit3
+Text Label 7500 30050 2    50   ~ 0
+char27_bit3
+Text Label 7500 29950 2    50   ~ 0
+char26_bit3
+Text Label 7500 29850 2    50   ~ 0
+char25_bit3
+Text Label 7500 29750 2    50   ~ 0
+char24_bit3
+Text Label 5900 30350 2    50   ~ 0
+char22_bit3
+Text Label 5900 30250 2    50   ~ 0
+char21_bit3
+Text Label 5900 30150 2    50   ~ 0
+char20_bit3
+Text Label 5900 30050 2    50   ~ 0
+char19_bit3
+Text Label 5900 29950 2    50   ~ 0
+char18_bit3
+Text Label 5900 29850 2    50   ~ 0
+char17_bit3
+Text Label 5900 29750 2    50   ~ 0
+char16_bit3
+Text Label 7500 28700 2    50   ~ 0
+char15_bit3
+Text Label 7500 28600 2    50   ~ 0
+char14_bit3
+Text Label 7500 28500 2    50   ~ 0
+char13_bit3
+Text Label 7500 28400 2    50   ~ 0
+char12_bit3
+Text Label 7500 28300 2    50   ~ 0
+char11_bit3
+Text Label 7500 28200 2    50   ~ 0
+char10_bit3
+Text Label 7500 28100 2    50   ~ 0
+char9_bit3
+Text Label 7500 28000 2    50   ~ 0
+char8_bit3
+Text Label 5900 28700 2    50   ~ 0
+char7_bit3
+Text Label 5900 28600 2    50   ~ 0
+char6_bit3
+Text Label 5900 28500 2    50   ~ 0
+char5_bit3
+Text Label 5900 28400 2    50   ~ 0
+char4_bit3
+Text Label 5900 28300 2    50   ~ 0
+char3_bit3
+Text Label 5900 28100 2    50   ~ 0
+char1_bit3
+Text Label 5900 28000 2    50   ~ 0
+char0_bit3
+$Comp
+L My_74xx:74HC153 U?
+U 2 1 63E38EA4
+P 9850 29100
+F 0 "U?" H 9850 29500 50  0000 C CNN
+F 1 "74HC153" H 9850 28700 50  0000 C CNN
+F 2 "" H 9850 29100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809200412_Nexperia-74HC153D-653_C53334.pdf" H 9850 29100 50  0001 C CNN
+	2    9850 29100
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63E38E9A
+P 8100 30350
+F 0 "U?" H 7750 29500 50  0000 C CNN
+F 1 "74HC151" H 8200 29500 50  0000 C CNN
+F 2 "" H 8100 30350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 8100 30350 50  0001 C CNN
+	1    8100 30350
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63E38E90
+P 8100 28600
+F 0 "U?" H 7750 27750 50  0000 C CNN
+F 1 "74HC151" H 8200 27750 50  0000 C CNN
+F 2 "" H 8100 28600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 8100 28600 50  0001 C CNN
+	1    8100 28600
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63E38AC4
+P 6500 30350
+F 0 "U?" H 6150 29500 50  0000 C CNN
+F 1 "74HC151" H 6600 29500 50  0000 C CNN
+F 2 "" H 6500 30350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 6500 30350 50  0001 C CNN
+	1    6500 30350
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63E38ABA
+P 6500 28600
+F 0 "U?" H 6150 27750 50  0000 C CNN
+F 1 "74HC151" H 6600 27750 50  0000 C CNN
+F 2 "" H 6500 28600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 6500 28600 50  0001 C CNN
+	1    6500 28600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 26200 7000 26000
+Wire Wire Line
+	6950 26200 7000 26200
+Wire Wire Line
+	7000 26000 8650 26000
+Wire Wire Line
+	7000 24450 7000 24250
+Wire Wire Line
+	6950 24450 7000 24450
+Wire Wire Line
+	7000 24250 8750 24250
+NoConn ~ 8550 26300
+NoConn ~ 6950 26300
+NoConn ~ 6950 24550
+NoConn ~ 8550 24550
+Wire Wire Line
+	8750 25600 9250 25600
+Wire Wire Line
+	8750 26200 8750 25600
+Wire Wire Line
+	8550 26200 8750 26200
+Wire Wire Line
+	8650 25500 9250 25500
+Wire Wire Line
+	8650 26000 8650 25500
+Wire Wire Line
+	8650 25400 9250 25400
+Wire Wire Line
+	8650 24450 8650 25400
+Wire Wire Line
+	8550 24450 8650 24450
+Wire Wire Line
+	8750 25300 9250 25300
+Wire Wire Line
+	8750 24250 8750 25300
+Text Label 7500 26800 2    50   ~ 0
+char30_bit2
+Text Label 7500 26600 2    50   ~ 0
+char28_bit2
+Text Label 5900 26900 2    50   ~ 0
+char23_bit2
+Text Label 5900 24650 2    50   ~ 0
+char2_bit2
+Text Label 7500 26900 2    50   ~ 0
+char31_bit2
+Text Label 7500 26700 2    50   ~ 0
+char29_bit2
+Text Label 7500 26500 2    50   ~ 0
+char27_bit2
+Text Label 7500 26400 2    50   ~ 0
+char26_bit2
+Text Label 7500 26300 2    50   ~ 0
+char25_bit2
+Text Label 7500 26200 2    50   ~ 0
+char24_bit2
+Text Label 5900 26800 2    50   ~ 0
+char22_bit2
+Text Label 5900 26700 2    50   ~ 0
+char21_bit2
+Text Label 5900 26600 2    50   ~ 0
+char20_bit2
+Text Label 5900 26500 2    50   ~ 0
+char19_bit2
+Text Label 5900 26400 2    50   ~ 0
+char18_bit2
+Text Label 5900 26300 2    50   ~ 0
+char17_bit2
+Text Label 5900 26200 2    50   ~ 0
+char16_bit2
+Text Label 7500 25150 2    50   ~ 0
+char15_bit2
+Text Label 7500 25050 2    50   ~ 0
+char14_bit2
+Text Label 7500 24950 2    50   ~ 0
+char13_bit2
+Text Label 7500 24850 2    50   ~ 0
+char12_bit2
+Text Label 7500 24750 2    50   ~ 0
+char11_bit2
+Text Label 7500 24650 2    50   ~ 0
+char10_bit2
+Text Label 7500 24550 2    50   ~ 0
+char9_bit2
+Text Label 7500 24450 2    50   ~ 0
+char8_bit2
+Text Label 5900 25150 2    50   ~ 0
+char7_bit2
+Text Label 5900 25050 2    50   ~ 0
+char6_bit2
+Text Label 5900 24950 2    50   ~ 0
+char5_bit2
+Text Label 5900 24850 2    50   ~ 0
+char4_bit2
+Text Label 5900 24750 2    50   ~ 0
+char3_bit2
+Text Label 5900 24550 2    50   ~ 0
+char1_bit2
+Text Label 5900 24450 2    50   ~ 0
+char0_bit2
+$Comp
+L My_74xx:74HC153 U?
+U 1 1 63E38A7C
+P 9850 25550
+F 0 "U?" H 9850 25950 50  0000 C CNN
+F 1 "74HC153" H 9850 25150 50  0000 C CNN
+F 2 "" H 9850 25550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809200412_Nexperia-74HC153D-653_C53334.pdf" H 9850 25550 50  0001 C CNN
+	1    9850 25550
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63E38A72
+P 8100 26800
+F 0 "U?" H 7750 25950 50  0000 C CNN
+F 1 "74HC151" H 8200 25950 50  0000 C CNN
+F 2 "" H 8100 26800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 8100 26800 50  0001 C CNN
+	1    8100 26800
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63E38A68
+P 8100 25050
+F 0 "U?" H 7750 24200 50  0000 C CNN
+F 1 "74HC151" H 8200 24200 50  0000 C CNN
+F 2 "" H 8100 25050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 8100 25050 50  0001 C CNN
+	1    8100 25050
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63E38A5E
+P 6500 26800
+F 0 "U?" H 6150 25950 50  0000 C CNN
+F 1 "74HC151" H 6600 25950 50  0000 C CNN
+F 2 "" H 6500 26800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 6500 26800 50  0001 C CNN
+	1    6500 26800
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63E38592
+P 6500 25050
+F 0 "U?" H 6150 24200 50  0000 C CNN
+F 1 "74HC151" H 6600 24200 50  0000 C CNN
+F 2 "" H 6500 25050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 6500 25050 50  0001 C CNN
+	1    6500 25050
+	1    0    0    -1  
+$EndComp
+Text Label 4800 29100 0    50   ~ 0
+display_bit1
+Text Label 4800 25550 0    50   ~ 0
+display_bit0
+Wire Wire Line
+	1400 29750 1400 29550
+Wire Wire Line
+	1350 29750 1400 29750
+Wire Wire Line
+	1400 29550 3050 29550
+Wire Wire Line
+	1400 28000 1400 27800
+Wire Wire Line
+	1350 28000 1400 28000
+Wire Wire Line
+	1400 27800 3150 27800
+NoConn ~ 2950 29850
+NoConn ~ 1350 29850
+NoConn ~ 1350 28100
+NoConn ~ 2950 28100
+Wire Wire Line
+	3150 29150 3650 29150
+Wire Wire Line
+	3150 29750 3150 29150
+Wire Wire Line
+	2950 29750 3150 29750
+Wire Wire Line
+	3050 29050 3650 29050
+Wire Wire Line
+	3050 29550 3050 29050
+Wire Wire Line
+	3050 28950 3650 28950
+Wire Wire Line
+	3050 28000 3050 28950
+Wire Wire Line
+	2950 28000 3050 28000
+Wire Wire Line
+	3150 28850 3650 28850
+Wire Wire Line
+	3150 27800 3150 28850
+Text Label 1900 30350 2    50   ~ 0
+char30_bit1
+Text Label 1900 30150 2    50   ~ 0
+char28_bit1
+Text Label 300  30450 2    50   ~ 0
+char23_bit1
+Text Label 300  28200 2    50   ~ 0
+char2_bit1
+Text Label 1900 30450 2    50   ~ 0
+char31_bit1
+Text Label 1900 30250 2    50   ~ 0
+char29_bit1
+Text Label 1900 30050 2    50   ~ 0
+char27_bit1
+Text Label 1900 29950 2    50   ~ 0
+char26_bit1
+Text Label 1900 29850 2    50   ~ 0
+char25_bit1
+Text Label 1900 29750 2    50   ~ 0
+char24_bit1
+Text Label 300  30350 2    50   ~ 0
+char22_bit1
+Text Label 300  30250 2    50   ~ 0
+char21_bit1
+Text Label 300  30150 2    50   ~ 0
+char20_bit1
+Text Label 300  30050 2    50   ~ 0
+char19_bit1
+Text Label 300  29950 2    50   ~ 0
+char18_bit1
+Text Label 300  29850 2    50   ~ 0
+char17_bit1
+Text Label 300  29750 2    50   ~ 0
+char16_bit1
+Text Label 1900 28700 2    50   ~ 0
+char15_bit1
+Text Label 1900 28600 2    50   ~ 0
+char14_bit1
+Text Label 1900 28500 2    50   ~ 0
+char13_bit1
+Text Label 1900 28400 2    50   ~ 0
+char12_bit1
+Text Label 1900 28300 2    50   ~ 0
+char11_bit1
+Text Label 1900 28200 2    50   ~ 0
+char10_bit1
+Text Label 1900 28100 2    50   ~ 0
+char9_bit1
+Text Label 1900 28000 2    50   ~ 0
+char8_bit1
+Text Label 300  28700 2    50   ~ 0
+char7_bit1
+Text Label 300  28600 2    50   ~ 0
+char6_bit1
+Text Label 300  28500 2    50   ~ 0
+char5_bit1
+Text Label 300  28400 2    50   ~ 0
+char4_bit1
+Text Label 300  28300 2    50   ~ 0
+char3_bit1
+Text Label 300  28100 2    50   ~ 0
+char1_bit1
+Text Label 300  28000 2    50   ~ 0
+char0_bit1
+$Comp
+L My_74xx:74HC153 U?
+U 2 1 63C4096C
+P 4250 29100
+F 0 "U?" H 4250 29500 50  0000 C CNN
+F 1 "74HC153" H 4250 28700 50  0000 C CNN
+F 2 "" H 4250 29100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809200412_Nexperia-74HC153D-653_C53334.pdf" H 4250 29100 50  0001 C CNN
+	2    4250 29100
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63C40962
+P 2500 30350
+F 0 "U?" H 2150 29500 50  0000 C CNN
+F 1 "74HC151" H 2600 29500 50  0000 C CNN
+F 2 "" H 2500 30350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 2500 30350 50  0001 C CNN
+	1    2500 30350
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63C40958
+P 2500 28600
+F 0 "U?" H 2150 27750 50  0000 C CNN
+F 1 "74HC151" H 2600 27750 50  0000 C CNN
+F 2 "" H 2500 28600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 2500 28600 50  0001 C CNN
+	1    2500 28600
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63C4094E
+P 900 30350
+F 0 "U?" H 550 29500 50  0000 C CNN
+F 1 "74HC151" H 1000 29500 50  0000 C CNN
+F 2 "" H 900 30350 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 900 30350 50  0001 C CNN
+	1    900  30350
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 63C40658
+P 900 28600
+F 0 "U?" H 550 27750 50  0000 C CNN
+F 1 "74HC151" H 1000 27750 50  0000 C CNN
+F 2 "" H 900 28600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 900 28600 50  0001 C CNN
+	1    900  28600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 26200 1400 26000
+Wire Wire Line
+	1350 26200 1400 26200
+Wire Wire Line
+	1400 26000 3050 26000
+Wire Wire Line
+	1400 24450 1400 24250
+Wire Wire Line
+	1350 24450 1400 24450
+Wire Wire Line
+	1400 24250 3150 24250
+NoConn ~ 2950 26300
+NoConn ~ 1350 26300
+NoConn ~ 1350 24550
+NoConn ~ 2950 24550
+Wire Wire Line
+	3150 25600 3650 25600
+Wire Wire Line
+	3150 26200 3150 25600
+Wire Wire Line
+	2950 26200 3150 26200
+Wire Wire Line
+	3050 25500 3650 25500
+Wire Wire Line
+	3050 26000 3050 25500
+Wire Wire Line
+	3050 25400 3650 25400
+Wire Wire Line
+	3050 24450 3050 25400
+Wire Wire Line
+	2950 24450 3050 24450
+Wire Wire Line
+	3150 25300 3650 25300
+Wire Wire Line
+	3150 24250 3150 25300
+Text Label 1900 26800 2    50   ~ 0
+char30_bit0
+Text Label 1900 26600 2    50   ~ 0
+char28_bit0
+Text Label 300  26900 2    50   ~ 0
+char23_bit0
+Text Label 300  24650 2    50   ~ 0
+char2_bit0
+Text Label 1900 26900 2    50   ~ 0
+char31_bit0
+Text Label 1900 26700 2    50   ~ 0
+char29_bit0
+Text Label 1900 26500 2    50   ~ 0
+char27_bit0
+Text Label 1900 26400 2    50   ~ 0
+char26_bit0
+Text Label 1900 26300 2    50   ~ 0
+char25_bit0
+Text Label 1900 26200 2    50   ~ 0
+char24_bit0
+Text Label 300  26800 2    50   ~ 0
+char22_bit0
+Text Label 300  26700 2    50   ~ 0
+char21_bit0
+Text Label 300  26600 2    50   ~ 0
+char20_bit0
+Text Label 300  26500 2    50   ~ 0
+char19_bit0
+Text Label 300  26400 2    50   ~ 0
+char18_bit0
+Text Label 300  26300 2    50   ~ 0
+char17_bit0
+Text Label 300  26200 2    50   ~ 0
+char16_bit0
+Text Label 1900 25150 2    50   ~ 0
+char15_bit0
+Text Label 1900 25050 2    50   ~ 0
+char14_bit0
+Text Label 1900 24950 2    50   ~ 0
+char13_bit0
+Text Label 1900 24850 2    50   ~ 0
+char12_bit0
+Text Label 1900 24750 2    50   ~ 0
+char11_bit0
+Text Label 1900 24650 2    50   ~ 0
+char10_bit0
+Text Label 1900 24550 2    50   ~ 0
+char9_bit0
+Text Label 1900 24450 2    50   ~ 0
+char8_bit0
+Text Label 300  25150 2    50   ~ 0
+char7_bit0
+Text Label 300  25050 2    50   ~ 0
+char6_bit0
+Text Label 300  24950 2    50   ~ 0
+char5_bit0
+Text Label 300  24850 2    50   ~ 0
+char4_bit0
+Text Label 300  24750 2    50   ~ 0
+char3_bit0
+Text Label 300  24550 2    50   ~ 0
+char1_bit0
+Text Label 300  24450 2    50   ~ 0
+char0_bit0
+$Comp
+L My_74xx:74HC153 U?
+U 1 1 629C09C7
+P 4250 25550
+F 0 "U?" H 4250 25950 50  0000 C CNN
+F 1 "74HC153" H 4250 25150 50  0000 C CNN
+F 2 "" H 4250 25550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809200412_Nexperia-74HC153D-653_C53334.pdf" H 4250 25550 50  0001 C CNN
+	1    4250 25550
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 628313DD
+P 2500 26800
+F 0 "U?" H 2150 25950 50  0000 C CNN
+F 1 "74HC151" H 2600 25950 50  0000 C CNN
+F 2 "" H 2500 26800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 2500 26800 50  0001 C CNN
+	1    2500 26800
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 62830871
+P 2500 25050
+F 0 "U?" H 2150 24200 50  0000 C CNN
+F 1 "74HC151" H 2600 24200 50  0000 C CNN
+F 2 "" H 2500 25050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 2500 25050 50  0001 C CNN
+	1    2500 25050
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 6282FB35
+P 900 26800
+F 0 "U?" H 550 25950 50  0000 C CNN
+F 1 "74HC151" H 1000 25950 50  0000 C CNN
+F 2 "" H 900 26800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 900 26800 50  0001 C CNN
+	1    900  26800
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC151 U?
+U 1 1 6282E07E
+P 900 25050
+F 0 "U?" H 550 24200 50  0000 C CNN
+F 1 "74HC151" H 1000 24200 50  0000 C CNN
+F 2 "" H 900 25050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf" H 900 25050 50  0001 C CNN
+	1    900  25050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

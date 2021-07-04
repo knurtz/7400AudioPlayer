@@ -1,7 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC151
+D Multiplexer 8 to 1
+K TTL MUX8
+F https://datasheet.lcsc.com/lcsc/1808280215_Nexperia-74HC151PW-118_C5607.pdf
+$ENDCMP
+#
+$CMP 74HC153
+D Dual Multiplexer 4 to 1
+K TTL Mux4
+F https://datasheet.lcsc.com/lcsc/1809200412_Nexperia-74HC153D-653_C53334.pdf
+$ENDCMP
+#
 $CMP 74HC40103
 F https://www.ti.com/lit/ds/symlink/cd74hc40103.pdf
+$ENDCMP
+#
+$CMP 74HC4514
+F https://datasheet.lcsc.com/lcsc/1901141030_Nexperia-74HC4514PW-118_C58910.pdf
 $ENDCMP
 #
 #End Doc Library

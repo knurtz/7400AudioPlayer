@@ -1,5 +1,4 @@
 (sym_lib_table
   (lib (name My_Memory_RAM)(type Legacy)(uri ${KIPRJMOD}/Libraries/My_Memory_RAM.lib)(options "")(descr ""))
   (lib (name My_74xx)(type Legacy)(uri ${KIPRJMOD}/Libraries/My_74xx.lib)(options "")(descr ""))
-  (lib (name 4700AudioPlayer-rescue)(type Legacy)(uri ${KIPRJMOD}/4700AudioPlayer-rescue.lib)(options "")(descr ""))
 )
