@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
-Sheet 2 2
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -3260,4 +3260,38 @@ Wire Wire Line
 	18100 4500 18100 5250
 Wire Wire Line
 	12500 4500 12500 5250
+$Comp
+L power:GND #PWR?
+U 1 1 616FAA0D
+P 850 850
+AR Path="/616FAA0D" Ref="#PWR?"  Part="1" 
+AR Path="/64F4CB3E/616FAA0D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 850 600 50  0001 C CNN
+F 1 "GND" H 855 677 50  0000 C CNN
+F 2 "" H 850 850 50  0001 C CNN
+F 3 "" H 850 850 50  0001 C CNN
+	1    850  850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 616FAA13
+P 600 750
+AR Path="/616FAA13" Ref="#PWR?"  Part="1" 
+AR Path="/64F4CB3E/616FAA13" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 600 600 50  0001 C CNN
+F 1 "+3V3" H 615 923 50  0000 C CNN
+F 2 "" H 600 750 50  0001 C CNN
+F 3 "" H 600 750 50  0001 C CNN
+	1    600  750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  750  600  950 
+Wire Wire Line
+	850  650  850  850 
+Text Label 600  950  0    39   ~ 0
+1
+Text Label 850  650  0    39   ~ 0
+0
 $EndSCHEMATC
