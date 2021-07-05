@@ -6280,188 +6280,572 @@ Text Notes -4600 31150 1    50   ~ 0
 Text Notes -4600 24850 1    50   ~ 0
 2nd line\n8th character\n(total minutes)
 $Comp
-L My_74xx:74HC85 U?
-U 1 1 6A43BFF7
-P -7750 22300
-F 0 "U?" H -7750 22967 50  0000 C CNN
-F 1 "74HC85" H -7750 22876 50  0000 C CNN
-F 2 "" H -7750 22300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/Nexperia-74HC85D-653_C5953.pdf" H -7750 22300 50  0001 C CNN
-	1    -7750 22300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 6AC90FAE
-P -7150 22200
-F 0 "#PWR?" H -7150 21950 50  0001 C CNN
-F 1 "GND" H -7145 22027 50  0000 C CNN
-F 2 "" H -7150 22200 50  0001 C CNN
-F 3 "" H -7150 22200 50  0001 C CNN
-	1    -7150 22200
+P -6000 23000
+F 0 "#PWR?" H -6000 22750 50  0001 C CNN
+F 1 "GND" H -5995 22827 50  0000 C CNN
+F 2 "" H -6000 23000 50  0001 C CNN
+F 3 "" H -6000 23000 50  0001 C CNN
+	1    -6000 23000
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	-7250 22100 -7150 22100
+	-6100 22900 -6000 22900
 Wire Wire Line
-	-7150 22100 -7150 22200
+	-6000 22900 -6000 23000
 Wire Wire Line
-	-7250 22000 -7150 22000
+	-6100 22800 -6000 22800
 Wire Wire Line
-	-7150 22000 -7150 22100
-Connection ~ -7150 22100
-Text Label -8500 21900 0    39   ~ 0
-0
+	-6000 22800 -6000 22900
+Connection ~ -6000 22900
 Wire Wire Line
-	-8500 21900 -8250 21900
+	-6000 22800 -6000 22700
 Wire Wire Line
-	-8500 22000 -8250 22000
-Wire Wire Line
-	-8500 22100 -8250 22100
-Wire Wire Line
-	-8500 22200 -8250 22200
-Text Label -8750 22400 0    50   ~ 0
-disp_addr3
-Wire Wire Line
-	-8750 22400 -8250 22400
-Text Label -8750 22500 0    50   ~ 0
-disp_addr2
-Text Label -8750 22600 0    50   ~ 0
-disp_addr1
-Text Label -8750 22700 0    50   ~ 0
-disp_addr0
-Wire Wire Line
-	-8750 22500 -8250 22500
-Wire Wire Line
-	-8250 22600 -8750 22600
-Wire Wire Line
-	-8750 22700 -8250 22700
-Text Notes -8200 21550 0    50   ~ 0
-Current display byte >2?
-Wire Wire Line
-	-7150 22000 -7150 21900
-Wire Wire Line
-	-7150 21900 -7250 21900
-Connection ~ -7150 22000
-Text Label -8500 22100 0    39   ~ 0
-0
-Text Label -8500 22200 0    39   ~ 0
-0
-Text Label -8500 22000 0    39   ~ 0
-1
-NoConn ~ -7250 22700
-NoConn ~ -7250 22600
-$Comp
-L My_74xx:74HC85 U?
-U 1 1 6D08109C
-P -5300 22300
-F 0 "U?" H -5300 22967 50  0000 C CNN
-F 1 "74HC85" H -5300 22876 50  0000 C CNN
-F 2 "" H -5300 22300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/Nexperia-74HC85D-653_C5953.pdf" H -5300 22300 50  0001 C CNN
-	1    -5300 22300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6D0813AC
-P -4700 22200
-F 0 "#PWR?" H -4700 21950 50  0001 C CNN
-F 1 "GND" H -4695 22027 50  0000 C CNN
-F 2 "" H -4700 22200 50  0001 C CNN
-F 3 "" H -4700 22200 50  0001 C CNN
-	1    -4700 22200
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	-4800 22100 -4700 22100
-Wire Wire Line
-	-4700 22100 -4700 22200
-Wire Wire Line
-	-4800 22000 -4700 22000
-Wire Wire Line
-	-4700 22000 -4700 22100
-Connection ~ -4700 22100
-Wire Wire Line
-	-6050 21900 -5800 21900
-Wire Wire Line
-	-6050 22000 -5800 22000
-Wire Wire Line
-	-6050 22100 -5800 22100
-Wire Wire Line
-	-6050 22200 -5800 22200
-Text Label -6300 22400 0    50   ~ 0
-disp_addr3
-Wire Wire Line
-	-6300 22400 -5800 22400
-Text Label -6300 22500 0    50   ~ 0
-disp_addr2
-Text Label -6300 22600 0    50   ~ 0
-disp_addr1
-Text Label -6300 22700 0    50   ~ 0
-disp_addr0
-Wire Wire Line
-	-6300 22500 -5800 22500
-Wire Wire Line
-	-5800 22600 -6300 22600
-Wire Wire Line
-	-6300 22700 -5800 22700
-Text Notes -5750 21550 0    50   ~ 0
-Current display byte >19?
-Wire Wire Line
-	-4700 22000 -4700 21900
-Wire Wire Line
-	-4700 21900 -4800 21900
-Connection ~ -4700 22000
-Text Label -6050 22100 0    39   ~ 0
-0
-Text Label -6050 22200 0    39   ~ 0
-0
-Text Label -6050 22000 0    39   ~ 0
-1
-NoConn ~ -4800 22700
-Wire Wire Line
-	-7250 22500 -7150 22500
-Wire Wire Line
-	-7150 22500 -7150 22950
-Wire Wire Line
-	-7150 22950 -7050 22950
+	-6000 22700 -6100 22700
+Connection ~ -6000 22800
+NoConn ~ -6100 23400
+Text Label -7600 23700 0    50   ~ 0
+disp_addr4
 $Comp
 L 74xx:74LS32 U?
 U 1 1 6D4F1E56
-P -6750 23050
-F 0 "U?" H -6800 23250 50  0000 C CNN
-F 1 "74LS32" H -6800 22850 50  0000 C CNN
-F 2 "" H -6750 23050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H -6750 23050 50  0001 C CNN
-	1    -6750 23050
+P -5050 23400
+F 0 "U?" H -5150 23600 50  0000 C CNN
+F 1 "74LS32" H -5100 23200 50  0000 C CNN
+F 2 "" H -5050 23400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H -5050 23400 50  0001 C CNN
+	1    -5050 23400
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	-7050 23150 -7500 23150
-Text Label -7500 23150 0    50   ~ 0
-disp_addr4
+	-6100 23300 -5350 23300
 $Comp
-L 74xx:74LS08 U?
-U 2 1 6D973356
-P -4300 23050
-F 0 "U?" H -4350 22850 50  0000 C CNN
-F 1 "74LS08" H -4300 23250 50  0000 C CNN
-F 2 "" H -4300 23050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS08" H -4300 23050 50  0001 C CNN
-	2    -4300 23050
+L 74xx:74HC86 U?
+U 1 1 61D54DD5
+P -5750 23600
+F 0 "U?" H -5850 23400 50  0000 C CNN
+F 1 "74HC86" H -5800 23800 50  0000 C CNN
+F 2 "" H -5750 23600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H -5750 23600 50  0001 C CNN
+	1    -5750 23600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-4800 22500 -4700 22500
+	-5450 23600 -5400 23600
 Wire Wire Line
-	-4700 22500 -4700 22950
+	-5400 23600 -5400 23500
 Wire Wire Line
-	-4700 22950 -4600 22950
+	-5400 23500 -5350 23500
 Wire Wire Line
-	-4600 23150 -5050 23150
-Text Label -5050 23150 0    50   ~ 0
-disp_addr4
-Text Label -6050 21900 0    39   ~ 0
+	-6100 23500 -6050 23500
+Wire Wire Line
+	-6050 23700 -7600 23700
+Wire Wire Line
+	-4750 23400 -4450 23400
+Text Label -4450 23400 2    50   ~ 0
+disp_rs
+Text Label -7350 22700 0    39   ~ 0
 1
+Text Label -7350 22800 0    39   ~ 0
+1
+Text Label -7350 23000 0    39   ~ 0
+0
+Text Label -7350 22900 0    39   ~ 0
+0
+Wire Wire Line
+	-7600 23500 -7100 23500
+Wire Wire Line
+	-7100 23400 -7600 23400
+Wire Wire Line
+	-7600 23300 -7100 23300
+Text Label -7600 23500 0    50   ~ 0
+disp_addr0
+Text Label -7600 23400 0    50   ~ 0
+disp_addr1
+Text Label -7600 23300 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	-7600 23200 -7100 23200
+Text Label -7600 23200 0    50   ~ 0
+disp_addr3
+Wire Wire Line
+	-7350 23000 -7100 23000
+Wire Wire Line
+	-7350 22900 -7100 22900
+Wire Wire Line
+	-7350 22800 -7100 22800
+Wire Wire Line
+	-7350 22700 -7100 22700
+$Comp
+L My_74xx:74HC85 U?
+U 1 1 6A43BFF7
+P -6600 23100
+F 0 "U?" H -6600 23767 50  0000 C CNN
+F 1 "74HC85" H -6600 23676 50  0000 C CNN
+F 2 "" H -6600 23100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/Nexperia-74HC85D-653_C5953.pdf" H -6600 23100 50  0001 C CNN
+	1    -6600 23100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-200 25550 300  25550
+Wire Wire Line
+	300  25450 -200 25450
+Wire Wire Line
+	-200 25350 300  25350
+Text Label -200 25350 0    50   ~ 0
+disp_addr0
+Text Label -200 25450 0    50   ~ 0
+disp_addr1
+Text Label -200 25550 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	1400 25550 1900 25550
+Wire Wire Line
+	1900 25450 1400 25450
+Wire Wire Line
+	1400 25350 1900 25350
+Text Label 1400 25350 0    50   ~ 0
+disp_addr0
+Text Label 1400 25450 0    50   ~ 0
+disp_addr1
+Text Label 1400 25550 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	1400 27300 1900 27300
+Wire Wire Line
+	1900 27200 1400 27200
+Wire Wire Line
+	1400 27100 1900 27100
+Text Label 1400 27100 0    50   ~ 0
+disp_addr0
+Text Label 1400 27200 0    50   ~ 0
+disp_addr1
+Text Label 1400 27300 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	-200 27300 300  27300
+Wire Wire Line
+	300  27200 -200 27200
+Wire Wire Line
+	-200 27100 300  27100
+Text Label -200 27100 0    50   ~ 0
+disp_addr0
+Text Label -200 27200 0    50   ~ 0
+disp_addr1
+Text Label -200 27300 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	-200 29100 300  29100
+Wire Wire Line
+	300  29000 -200 29000
+Wire Wire Line
+	-200 28900 300  28900
+Text Label -200 28900 0    50   ~ 0
+disp_addr0
+Text Label -200 29000 0    50   ~ 0
+disp_addr1
+Text Label -200 29100 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	1400 29100 1900 29100
+Wire Wire Line
+	1900 29000 1400 29000
+Wire Wire Line
+	1400 28900 1900 28900
+Text Label 1400 28900 0    50   ~ 0
+disp_addr0
+Text Label 1400 29000 0    50   ~ 0
+disp_addr1
+Text Label 1400 29100 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	1400 30850 1900 30850
+Wire Wire Line
+	1900 30750 1400 30750
+Wire Wire Line
+	1400 30650 1900 30650
+Text Label 1400 30650 0    50   ~ 0
+disp_addr0
+Text Label 1400 30750 0    50   ~ 0
+disp_addr1
+Text Label 1400 30850 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	-200 30850 300  30850
+Wire Wire Line
+	300  30750 -200 30750
+Wire Wire Line
+	-200 30650 300  30650
+Text Label -200 30650 0    50   ~ 0
+disp_addr0
+Text Label -200 30750 0    50   ~ 0
+disp_addr1
+Text Label -200 30850 0    50   ~ 0
+disp_addr2
+$Comp
+L My_74xx:74HC153 U?
+U 3 1 66976D33
+P 4250 27300
+F 0 "U?" H 4250 27500 50  0000 C CNN
+F 1 "74HC153" H 4250 27100 50  0000 C CNN
+F 2 "" H 4250 27300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809200412_Nexperia-74HC153D-653_C53334.pdf" H 4250 27300 50  0001 C CNN
+	3    4250 27300
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC153 U?
+U 3 1 669779F2
+P 9850 27300
+F 0 "U?" H 9850 27500 50  0000 C CNN
+F 1 "74HC153" H 9850 27100 50  0000 C CNN
+F 2 "" H 9850 27300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809200412_Nexperia-74HC153D-653_C53334.pdf" H 9850 27300 50  0001 C CNN
+	3    9850 27300
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC153 U?
+U 3 1 6697BCAD
+P 15450 27300
+F 0 "U?" H 15450 27500 50  0000 C CNN
+F 1 "74HC153" H 15450 27100 50  0000 C CNN
+F 2 "" H 15450 27300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809200412_Nexperia-74HC153D-653_C53334.pdf" H 15450 27300 50  0001 C CNN
+	3    15450 27300
+	1    0    0    -1  
+$EndComp
+$Comp
+L My_74xx:74HC153 U?
+U 3 1 6697D314
+P 21050 27300
+F 0 "U?" H 21050 27500 50  0000 C CNN
+F 1 "74HC153" H 21050 27100 50  0000 C CNN
+F 2 "" H 21050 27300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809200412_Nexperia-74HC153D-653_C53334.pdf" H 21050 27300 50  0001 C CNN
+	3    21050 27300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 27350 3650 27350
+Text Label 3150 27350 0    50   ~ 0
+disp_addr4
+Wire Wire Line
+	3150 27250 3650 27250
+Text Label 3150 27250 0    50   ~ 0
+disp_addr3
+Wire Wire Line
+	5400 25550 5900 25550
+Wire Wire Line
+	5900 25450 5400 25450
+Wire Wire Line
+	5400 25350 5900 25350
+Text Label 5400 25350 0    50   ~ 0
+disp_addr0
+Text Label 5400 25450 0    50   ~ 0
+disp_addr1
+Text Label 5400 25550 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	5400 27300 5900 27300
+Wire Wire Line
+	5900 27200 5400 27200
+Wire Wire Line
+	5400 27100 5900 27100
+Text Label 5400 27100 0    50   ~ 0
+disp_addr0
+Text Label 5400 27200 0    50   ~ 0
+disp_addr1
+Text Label 5400 27300 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	7000 25550 7500 25550
+Wire Wire Line
+	7500 25450 7000 25450
+Wire Wire Line
+	7000 25350 7500 25350
+Text Label 7000 25350 0    50   ~ 0
+disp_addr0
+Text Label 7000 25450 0    50   ~ 0
+disp_addr1
+Text Label 7000 25550 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	7000 27300 7500 27300
+Wire Wire Line
+	7500 27200 7000 27200
+Wire Wire Line
+	7000 27100 7500 27100
+Text Label 7000 27100 0    50   ~ 0
+disp_addr0
+Text Label 7000 27200 0    50   ~ 0
+disp_addr1
+Text Label 7000 27300 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	5400 30850 5900 30850
+Wire Wire Line
+	5900 30750 5400 30750
+Wire Wire Line
+	5400 30650 5900 30650
+Text Label 5400 30650 0    50   ~ 0
+disp_addr0
+Text Label 5400 30750 0    50   ~ 0
+disp_addr1
+Text Label 5400 30850 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	7000 30850 7500 30850
+Wire Wire Line
+	7500 30750 7000 30750
+Wire Wire Line
+	7000 30650 7500 30650
+Text Label 7000 30650 0    50   ~ 0
+disp_addr0
+Text Label 7000 30750 0    50   ~ 0
+disp_addr1
+Text Label 7000 30850 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	7000 29100 7500 29100
+Wire Wire Line
+	7500 29000 7000 29000
+Wire Wire Line
+	7000 28900 7500 28900
+Text Label 7000 28900 0    50   ~ 0
+disp_addr0
+Text Label 7000 29000 0    50   ~ 0
+disp_addr1
+Text Label 7000 29100 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	5400 29100 5900 29100
+Wire Wire Line
+	5900 29000 5400 29000
+Wire Wire Line
+	5400 28900 5900 28900
+Text Label 5400 28900 0    50   ~ 0
+disp_addr0
+Text Label 5400 29000 0    50   ~ 0
+disp_addr1
+Text Label 5400 29100 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	11000 27300 11500 27300
+Wire Wire Line
+	11500 27200 11000 27200
+Wire Wire Line
+	11000 27100 11500 27100
+Text Label 11000 27100 0    50   ~ 0
+disp_addr0
+Text Label 11000 27200 0    50   ~ 0
+disp_addr1
+Text Label 11000 27300 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	12600 27300 13100 27300
+Wire Wire Line
+	13100 27200 12600 27200
+Wire Wire Line
+	12600 27100 13100 27100
+Text Label 12600 27100 0    50   ~ 0
+disp_addr0
+Text Label 12600 27200 0    50   ~ 0
+disp_addr1
+Text Label 12600 27300 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	12600 29100 13100 29100
+Wire Wire Line
+	13100 29000 12600 29000
+Wire Wire Line
+	12600 28900 13100 28900
+Text Label 12600 28900 0    50   ~ 0
+disp_addr0
+Text Label 12600 29000 0    50   ~ 0
+disp_addr1
+Text Label 12600 29100 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	11000 29100 11500 29100
+Wire Wire Line
+	11500 29000 11000 29000
+Wire Wire Line
+	11000 28900 11500 28900
+Text Label 11000 28900 0    50   ~ 0
+disp_addr0
+Text Label 11000 29000 0    50   ~ 0
+disp_addr1
+Text Label 11000 29100 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	12600 30850 13100 30850
+Wire Wire Line
+	13100 30750 12600 30750
+Wire Wire Line
+	12600 30650 13100 30650
+Text Label 12600 30650 0    50   ~ 0
+disp_addr0
+Text Label 12600 30750 0    50   ~ 0
+disp_addr1
+Text Label 12600 30850 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	11000 30850 11500 30850
+Wire Wire Line
+	11500 30750 11000 30750
+Wire Wire Line
+	11000 30650 11500 30650
+Text Label 11000 30650 0    50   ~ 0
+disp_addr0
+Text Label 11000 30750 0    50   ~ 0
+disp_addr1
+Text Label 11000 30850 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	12600 25550 13100 25550
+Wire Wire Line
+	13100 25450 12600 25450
+Wire Wire Line
+	12600 25350 13100 25350
+Text Label 12600 25350 0    50   ~ 0
+disp_addr0
+Text Label 12600 25450 0    50   ~ 0
+disp_addr1
+Text Label 12600 25550 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	11000 25550 11500 25550
+Wire Wire Line
+	11500 25450 11000 25450
+Wire Wire Line
+	11000 25350 11500 25350
+Text Label 11000 25350 0    50   ~ 0
+disp_addr0
+Text Label 11000 25450 0    50   ~ 0
+disp_addr1
+Text Label 11000 25550 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	16600 25550 17100 25550
+Wire Wire Line
+	17100 25450 16600 25450
+Wire Wire Line
+	16600 25350 17100 25350
+Text Label 16600 25350 0    50   ~ 0
+disp_addr0
+Text Label 16600 25450 0    50   ~ 0
+disp_addr1
+Text Label 16600 25550 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	18200 25550 18700 25550
+Wire Wire Line
+	18700 25450 18200 25450
+Wire Wire Line
+	18200 25350 18700 25350
+Text Label 18200 25350 0    50   ~ 0
+disp_addr0
+Text Label 18200 25450 0    50   ~ 0
+disp_addr1
+Text Label 18200 25550 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	16600 27300 17100 27300
+Wire Wire Line
+	17100 27200 16600 27200
+Wire Wire Line
+	16600 27100 17100 27100
+Text Label 16600 27100 0    50   ~ 0
+disp_addr0
+Text Label 16600 27200 0    50   ~ 0
+disp_addr1
+Text Label 16600 27300 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	18200 27300 18700 27300
+Wire Wire Line
+	18700 27200 18200 27200
+Wire Wire Line
+	18200 27100 18700 27100
+Text Label 18200 27100 0    50   ~ 0
+disp_addr0
+Text Label 18200 27200 0    50   ~ 0
+disp_addr1
+Text Label 18200 27300 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	16600 29100 17100 29100
+Wire Wire Line
+	17100 29000 16600 29000
+Wire Wire Line
+	16600 28900 17100 28900
+Text Label 16600 28900 0    50   ~ 0
+disp_addr0
+Text Label 16600 29000 0    50   ~ 0
+disp_addr1
+Text Label 16600 29100 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	18200 29100 18700 29100
+Wire Wire Line
+	18700 29000 18200 29000
+Wire Wire Line
+	18200 28900 18700 28900
+Text Label 18200 28900 0    50   ~ 0
+disp_addr0
+Text Label 18200 29000 0    50   ~ 0
+disp_addr1
+Text Label 18200 29100 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	18200 30850 18700 30850
+Wire Wire Line
+	18700 30750 18200 30750
+Wire Wire Line
+	18200 30650 18700 30650
+Text Label 18200 30650 0    50   ~ 0
+disp_addr0
+Text Label 18200 30750 0    50   ~ 0
+disp_addr1
+Text Label 18200 30850 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	16600 30850 17100 30850
+Wire Wire Line
+	17100 30750 16600 30750
+Wire Wire Line
+	16600 30650 17100 30650
+Text Label 16600 30650 0    50   ~ 0
+disp_addr0
+Text Label 16600 30750 0    50   ~ 0
+disp_addr1
+Text Label 16600 30850 0    50   ~ 0
+disp_addr2
+Wire Wire Line
+	8750 27350 9250 27350
+Text Label 8750 27350 0    50   ~ 0
+disp_addr4
+Wire Wire Line
+	8750 27250 9250 27250
+Text Label 8750 27250 0    50   ~ 0
+disp_addr3
+Wire Wire Line
+	14350 27350 14850 27350
+Text Label 14350 27350 0    50   ~ 0
+disp_addr4
+Wire Wire Line
+	14350 27250 14850 27250
+Text Label 14350 27250 0    50   ~ 0
+disp_addr3
+Wire Wire Line
+	19950 27350 20450 27350
+Text Label 19950 27350 0    50   ~ 0
+disp_addr4
+Wire Wire Line
+	19950 27250 20450 27250
+Text Label 19950 27250 0    50   ~ 0
+disp_addr3
 $EndSCHEMATC
