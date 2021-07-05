@@ -2600,118 +2600,118 @@ Text Notes 6150 4750 1    50   ~ 0
 $Comp
 L power:GND #PWR?
 U 1 1 650EE059
-P 5800 2900
+P 5850 2750
 AR Path="/650EE059" Ref="#PWR?"  Part="1" 
 AR Path="/64F4CB3E/650EE059" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5800 2650 50  0001 C CNN
-F 1 "GND" H 5805 2727 50  0000 C CNN
-F 2 "" H 5800 2900 50  0001 C CNN
-F 3 "" H 5800 2900 50  0001 C CNN
-	1    5800 2900
+F 0 "#PWR?" H 5850 2500 50  0001 C CNN
+F 1 "GND" H 5855 2577 50  0000 C CNN
+F 2 "" H 5850 2750 50  0001 C CNN
+F 3 "" H 5850 2750 50  0001 C CNN
+	1    5850 2750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 2800 5800 2800
+	5750 2650 5850 2650
 Wire Wire Line
-	5800 2800 5800 2900
+	5850 2650 5850 2750
 Wire Wire Line
-	5700 2700 5800 2700
+	5750 2550 5850 2550
 Wire Wire Line
-	5800 2700 5800 2800
-Connection ~ 5800 2800
+	5850 2550 5850 2650
+Connection ~ 5850 2650
 Wire Wire Line
-	5800 2700 5800 2600
+	5850 2550 5850 2450
 Wire Wire Line
-	5800 2600 5700 2600
-Connection ~ 5800 2700
-NoConn ~ 5700 3300
-Text Label 4200 3600 0    50   ~ 0
+	5850 2450 5750 2450
+Connection ~ 5850 2550
+NoConn ~ 5750 3150
+Text Label 4250 3450 0    50   ~ 0
 disp_addr4
 $Comp
 L 74xx:74LS32 U?
 U 1 1 650EE069
-P 6750 3300
+P 6800 3150
 AR Path="/650EE069" Ref="U?"  Part="1" 
 AR Path="/64F4CB3E/650EE069" Ref="U?"  Part="1" 
-F 0 "U?" H 6650 3500 50  0000 C CNN
-F 1 "74LS32" H 6700 3100 50  0000 C CNN
-F 2 "" H 6750 3300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 6750 3300 50  0001 C CNN
-	1    6750 3300
+F 0 "U?" H 6700 3350 50  0000 C CNN
+F 1 "74LS32" H 6750 2950 50  0000 C CNN
+F 2 "" H 6800 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS32" H 6800 3150 50  0001 C CNN
+	1    6800 3150
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	5700 3200 6450 3200
+	5750 3050 6500 3050
 $Comp
 L 74xx:74HC86 U?
 U 1 1 650EE070
-P 6050 3500
+P 6100 3350
 AR Path="/650EE070" Ref="U?"  Part="1" 
 AR Path="/64F4CB3E/650EE070" Ref="U?"  Part="1" 
-F 0 "U?" H 5950 3300 50  0000 C CNN
-F 1 "74HC86" H 6000 3700 50  0000 C CNN
-F 2 "" H 6050 3500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 6050 3500 50  0001 C CNN
-	1    6050 3500
+F 0 "U?" H 6000 3150 50  0000 C CNN
+F 1 "74HC86" H 6050 3550 50  0000 C CNN
+F 2 "" H 6100 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 6100 3350 50  0001 C CNN
+	1    6100 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6350 3500 6400 3500
+	6400 3350 6450 3350
 Wire Wire Line
-	6400 3500 6400 3400
+	6450 3350 6450 3250
 Wire Wire Line
-	6400 3400 6450 3400
+	6450 3250 6500 3250
 Wire Wire Line
-	5700 3400 5750 3400
+	5750 3250 5800 3250
 Wire Wire Line
-	5750 3600 4200 3600
+	5800 3450 4250 3450
 Wire Wire Line
-	7050 3300 7350 3300
-Text Label 7350 3300 2    50   ~ 0
+	7100 3150 7400 3150
+Text Label 7400 3150 2    50   ~ 0
 disp_rs
-Text Label 4450 2600 0    39   ~ 0
+Text Label 4500 2450 0    39   ~ 0
 1
-Text Label 4450 2700 0    39   ~ 0
+Text Label 4500 2550 0    39   ~ 0
 1
-Text Label 4450 2900 0    39   ~ 0
+Text Label 4500 2750 0    39   ~ 0
 0
-Text Label 4450 2800 0    39   ~ 0
+Text Label 4500 2650 0    39   ~ 0
 0
 Wire Wire Line
-	4200 3400 4700 3400
+	4250 3250 4750 3250
 Wire Wire Line
-	4700 3300 4200 3300
+	4750 3150 4250 3150
 Wire Wire Line
-	4200 3200 4700 3200
-Text Label 4200 3400 0    50   ~ 0
+	4250 3050 4750 3050
+Text Label 4250 3250 0    50   ~ 0
 disp_addr0
-Text Label 4200 3300 0    50   ~ 0
+Text Label 4250 3150 0    50   ~ 0
 disp_addr1
-Text Label 4200 3200 0    50   ~ 0
+Text Label 4250 3050 0    50   ~ 0
 disp_addr2
 Wire Wire Line
-	4200 3100 4700 3100
-Text Label 4200 3100 0    50   ~ 0
+	4250 2950 4750 2950
+Text Label 4250 2950 0    50   ~ 0
 disp_addr3
 Wire Wire Line
-	4450 2900 4700 2900
+	4500 2750 4750 2750
 Wire Wire Line
-	4450 2800 4700 2800
+	4500 2650 4750 2650
 Wire Wire Line
-	4450 2700 4700 2700
+	4500 2550 4750 2550
 Wire Wire Line
-	4450 2600 4700 2600
+	4500 2450 4750 2450
 $Comp
 L My_74xx:74HC85 U?
 U 1 1 650EE08D
-P 5200 3000
+P 5250 2850
 AR Path="/650EE08D" Ref="U?"  Part="1" 
 AR Path="/64F4CB3E/650EE08D" Ref="U?"  Part="1" 
-F 0 "U?" H 5200 3667 50  0000 C CNN
-F 1 "74HC85" H 5200 3576 50  0000 C CNN
-F 2 "" H 5200 3000 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/Nexperia-74HC85D-653_C5953.pdf" H 5200 3000 50  0001 C CNN
-	1    5200 3000
+F 0 "U?" H 5250 3517 50  0000 C CNN
+F 1 "74HC85" H 5250 3426 50  0000 C CNN
+F 2 "" H 5250 2850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/Nexperia-74HC85D-653_C5953.pdf" H 5250 2850 50  0001 C CNN
+	1    5250 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3183,77 +3183,77 @@ Wire Wire Line
 Text Label 29400 7100 0    50   ~ 0
 disp_addr3
 Wire Wire Line
-	2050 3050 3150 3050
+	2100 2900 3200 2900
 $Comp
 L 74xx:74LS393 U?
 U 2 1 650EE17C
-P 2600 3300
+P 2650 3150
 AR Path="/650EE17C" Ref="U?"  Part="2" 
 AR Path="/64F4CB3E/650EE17C" Ref="U?"  Part="2" 
-F 0 "U?" H 2600 3050 50  0000 C CNN
-F 1 "74LS393" H 2600 2850 50  0001 C CNN
-F 2 "" H 2600 3300 50  0001 C CNN
-F 3 "74xx\\74LS393.pdf" H 2600 3300 50  0001 C CNN
-	2    2600 3300
+F 0 "U?" H 2650 2900 50  0000 C CNN
+F 1 "74LS393" H 2650 2700 50  0001 C CNN
+F 2 "" H 2650 3150 50  0001 C CNN
+F 3 "74xx\\74LS393.pdf" H 2650 3150 50  0001 C CNN
+	2    2650 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74xx:74LS393 U?
 U 1 1 650EE182
-P 2600 2700
+P 2650 2550
 AR Path="/650EE182" Ref="U?"  Part="1" 
 AR Path="/64F4CB3E/650EE182" Ref="U?"  Part="1" 
-F 0 "U?" H 2600 2450 50  0000 C CNN
-F 1 "74LS393" H 2600 2976 50  0001 C CNN
-F 2 "" H 2600 2700 50  0001 C CNN
-F 3 "74xx\\74LS393.pdf" H 2600 2700 50  0001 C CNN
-	1    2600 2700
+F 0 "U?" H 2650 2300 50  0000 C CNN
+F 1 "74LS393" H 2650 2826 50  0001 C CNN
+F 2 "" H 2650 2550 50  0001 C CNN
+F 3 "74xx\\74LS393.pdf" H 2650 2550 50  0001 C CNN
+	1    2650 2550
 	1    0    0    -1  
 $EndComp
-Text Label 3600 2600 2    50   ~ 0
+Text Label 3650 2450 2    50   ~ 0
 disp_addr0
-Text Label 3600 2700 2    50   ~ 0
+Text Label 3650 2550 2    50   ~ 0
 disp_addr1
-Text Label 3600 2800 2    50   ~ 0
+Text Label 3650 2650 2    50   ~ 0
 disp_addr2
-Text Label 3600 2900 2    50   ~ 0
+Text Label 3650 2750 2    50   ~ 0
 disp_addr3
-Text Label 3600 3200 2    50   ~ 0
+Text Label 3650 3050 2    50   ~ 0
 disp_addr4
-NoConn ~ 3100 3300
-NoConn ~ 3100 3400
-NoConn ~ 3100 3500
+NoConn ~ 3150 3150
+NoConn ~ 3150 3250
+NoConn ~ 3150 3350
 Wire Wire Line
-	3600 2600 3100 2600
+	3650 2450 3150 2450
 Wire Wire Line
-	3100 2700 3600 2700
+	3150 2550 3650 2550
 Wire Wire Line
-	3600 2800 3100 2800
+	3650 2650 3150 2650
 Wire Wire Line
-	3100 2900 3150 2900
+	3150 2750 3200 2750
 Wire Wire Line
-	3150 2900 3150 3050
-Connection ~ 3150 2900
+	3200 2750 3200 2900
+Connection ~ 3200 2750
 Wire Wire Line
-	3150 2900 3600 2900
+	3200 2750 3650 2750
 Wire Wire Line
-	2050 3050 2050 3200
+	2100 2900 2100 3050
 Wire Wire Line
-	2050 3200 2100 3200
-Text Label 1850 2900 0    50   ~ 0
+	2100 3050 2150 3050
+Text Label 1900 2750 0    50   ~ 0
 reset
 Wire Wire Line
-	1850 2900 2100 2900
-Text Label 1850 3500 0    50   ~ 0
+	1900 2750 2150 2750
+Text Label 1900 3350 0    50   ~ 0
 reset
 Wire Wire Line
-	1850 3500 2100 3500
+	1900 3350 2150 3350
 Wire Wire Line
-	2100 2600 1700 2600
-Text Label 1700 2600 0    50   ~ 0
+	2150 2450 1750 2450
+Text Label 1750 2450 0    50   ~ 0
 disp_clk
 Wire Wire Line
-	3100 3200 3600 3200
+	3150 3050 3650 3050
 Wire Wire Line
 	23700 4500 23700 5250
 Wire Wire Line
@@ -3294,4 +3294,40 @@ Text Label 600  950  0    39   ~ 0
 1
 Text Label 850  650  0    39   ~ 0
 0
+$Comp
+L Display_Character:HY1602E DS?
+U 1 1 618C0DB3
+P 28650 13100
+F 0 "DS?" H 28650 14081 50  0000 C CNN
+F 1 "HY1602E" H 28650 13990 50  0000 C CNN
+F 2 "Display:HY1602E" H 28650 12200 50  0001 C CIN
+F 3 "http://www.icbank.com/data/ICBShop/board/HY1602E.pdf" H 28850 13200 50  0001 C CNN
+	1    28650 13100
+	1    0    0    -1  
+$EndComp
+Text Label 28250 13000 2    50   ~ 0
+display_bit0
+Text Label 28250 13100 2    50   ~ 0
+display_bit1
+Text Label 28250 13200 2    50   ~ 0
+display_bit2
+Text Label 28250 13300 2    50   ~ 0
+display_bit3
+Text Label 28250 13400 2    50   ~ 0
+display_bit4
+Text Label 28250 13500 2    50   ~ 0
+display_bit5
+Text Label 28250 13600 2    50   ~ 0
+display_bit6
+Text Label 28250 13700 2    50   ~ 0
+display_bit7
+Text Label 28250 12800 2    50   ~ 0
+disp_rs
+Text Label 28250 12500 2    50   ~ 0
+disp_clk
+Text Label 28250 12700 2    39   ~ 0
+0
+NoConn ~ 29050 12500
+NoConn ~ 29050 13100
+NoConn ~ 29050 13200
 $EndSCHEMATC
