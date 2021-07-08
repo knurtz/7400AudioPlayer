@@ -3330,4 +3330,68 @@ Text Label 28250 12700 2    39   ~ 0
 NoConn ~ 29050 12500
 NoConn ~ 29050 13100
 NoConn ~ 29050 13200
+Text Label 4900 9350 0    39   ~ 0
+0
+Text Label 4900 9250 0    39   ~ 0
+0
+Text Label 4900 9150 0    39   ~ 0
+1
+Text Label 4900 9050 0    39   ~ 0
+1
+Text Label 4900 10250 0    39   ~ 0
+0
+Text Label 4900 10150 0    39   ~ 0
+0
+Text Label 4900 10050 0    39   ~ 0
+1
+Text Label 4900 9950 0    39   ~ 0
+1
+Text Label 6300 4850 0    39   ~ 0
+0
+Text Label 6300 4750 0    39   ~ 0
+0
+Text Label 6300 4650 0    39   ~ 0
+1
+Text Label 6300 4550 0    39   ~ 0
+1
+Text Label 6300 5750 0    39   ~ 0
+0
+Text Label 6300 5650 0    39   ~ 0
+0
+Text Label 6300 5550 0    39   ~ 0
+1
+Text Label 6300 5450 0    39   ~ 0
+1
+Text Label 6300 7550 0    39   ~ 0
+0
+Text Label 6300 7450 0    39   ~ 0
+0
+Text Label 6300 7350 0    39   ~ 0
+1
+Text Label 6300 7250 0    39   ~ 0
+1
+Text Label 6300 8450 0    39   ~ 0
+0
+Text Label 6300 8350 0    39   ~ 0
+0
+Text Label 6300 8250 0    39   ~ 0
+1
+Text Label 6300 8150 0    39   ~ 0
+1
+Text Label 6300 10250 0    39   ~ 0
+0
+Text Label 6300 10150 0    39   ~ 0
+0
+Text Label 6300 10050 0    39   ~ 0
+1
+Text Label 6300 9950 0    39   ~ 0
+1
+Text Label 6300 11150 0    39   ~ 0
+0
+Text Label 6300 11050 0    39   ~ 0
+0
+Text Label 6300 10950 0    39   ~ 0
+1
+Text Label 6300 10850 0    39   ~ 0
+1
 $EndSCHEMATC
